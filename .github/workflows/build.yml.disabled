@@ -1,0 +1,9 @@
+# ================================
+# 📦 GitHub Actions: Build Workflow
+# ================================
+# NOTE:
+# To temporarily disable this workflow,
+# rename this file to `build.yml.disabled`.
+# GitHub will ignore it unless it's named `*.yml`.
+
+# Enable this workflow by renaming it back to `build.yml`
