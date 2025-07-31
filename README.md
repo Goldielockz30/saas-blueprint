@@ -60,7 +60,7 @@ This boilerplate is versatile and can serve as the foundation for building and s
 - 📈 Data analytics and reporting portals
 - 🔥 Creator economy platforms with paywalls and content gating
 - ⚙️ Internal SaaS tools and client dashboards
-- 🩶 NSFW content generators and adult-themed platforms (with customize billing)
+- 🩶 NSFW content generators and adult-themed platforms (with customized billing)
 
 ---
 

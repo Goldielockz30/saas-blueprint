@@ -26,7 +26,9 @@ scripts/setup-local-boilerplate/setup-local-boilerplate.sh
 
 ## ⚙️ How to Use It
 
-From your bash terminal:
+To start your own clean project using this boilerplate:
+
+First, open your VS Code bash terminal and choose where you want your project folder to live (e.g. Desktop, Documents, etc.)
 
 ```bash
 cd ~/Desktop  # or wherever you keep your projects
