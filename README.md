@@ -79,7 +79,8 @@ bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
 
 ---
 
-> 🔐 **Important:** This boilerplate includes a Git hook system that blocks commits containing secrets like .env, .env.local, or secrets.toml., but it must be activated separately. See: [`pre-commit-git-hook.md`](scripts/pre-commit-git-hook/pre-commit-git-hook.md) for activation instructions.
+🔐 **Important:** This boilerplate includes a Git hook system that automatically blocks commits containing secrets like .env, .env.local, or secrets.toml.
+The hook is auto-installed by `activate-pre-commit`, which runs during setup via `setup-local-boilerplate.sh`.
 
 ---
 

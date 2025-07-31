@@ -35,7 +35,6 @@ cd ~/Desktop  # or wherever you will keep your projects
 Clone my SaaS-boilerplate and keep it as a local-boilerplate for future use or reference.
 
 ```bash
-cd ~/Desktop
 git clone https://github.com/Goldielockz30/SaaS-boilerplate.git local-boilerplate            # Edit the name eg. loacl-boilerplate
 cd local-boilerplate
 bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
