@@ -31,8 +31,8 @@ From your bash terminal:
 ```bash
 cd ~/Desktop  # or wherever you keep your projects
 git clone https://github.com/Goldielockz30/SaaS-boilerplate.git my-saas-app
-cd my-saas-app/scripts/setup-local-boilerplate
-bash setup-local-boilerplate.sh
+cd my-saas-app
+bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
 ```
 
 Then follow the prompts to create your own local project folder.
