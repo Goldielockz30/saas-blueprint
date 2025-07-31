@@ -23,6 +23,7 @@ git commit -m "Initial commit from SaaS boilerplate"
 # Create .env from .env.example
 if [[ -f ".env.example" ]]; then
   cp .env.example .env
+  bash scripts/pre-commit-git-hook/activate-pre-commit
   echo "✅ .env file created from .env.example"
 fi
 
