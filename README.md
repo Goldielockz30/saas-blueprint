@@ -71,9 +71,8 @@ To start your own clean project using this boilerplate:
 First, open your VS Code bash terminal and choose where you want your project folder to live (e.g. Desktop, Documents, etc.)
 
 ```bash
-cd ~/Desktop  # or wherever you keep your projects
-git clone https://github.com/Goldielockz30/SaaS-boilerplate.git my-saas-app
-cd my-saas-app
+git clone https://github.com/Goldielockz30/SaaS-boilerplate.git
+cd SaaS-boilerplate
 bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
 ```
 
