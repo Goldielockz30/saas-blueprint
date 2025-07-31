@@ -76,12 +76,19 @@ This boilerplate is versatile and can serve as the foundation for building and s
 
 ## 🚀 Getting Started Locally
 
+> 🛠 **Note:** Most of your development work can be done in the default **PowerShell terminal** in VS Code.  
+> However, when running `.sh` (Bash) scripts — like the setup script below — make sure to switch to the **Bash terminal** first.  
+> You can do this in VS Code by clicking the dropdown in the terminal tab and selecting **"Git Bash"** or **"WSL"**, depending on your setup.
+
 To start your own clean project using this boilerplate:
 
-First, open your VS Code bash terminal and choose where you want your project folder to live (e.g. Desktop, Documents, etc.)
+```bash
+cd ~/Desktop                  # Choose where you want your project folder to live and navigate into that folder (e.g. Desktop, Documents, etc.)
+```
+
+To clone this project and run setup scripts run:
 
 ```bash
-cd ~/Desktop
 git clone https://github.com/Goldielockz30/SaaS-boilerplate.git
 cd SaaS-boilerplate
 bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
@@ -89,8 +96,8 @@ bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
 
 ---
 
-> 🔐 **Important:** This boilerplate includes a Git hook system that blocks commits containing secrets like `.env`, `.env.local`, or `secrets.toml`.  
-> The protection activates automatically during setup. For details, see: [`pre-commit-git-hook.md`](scripts/pre-commit-git-hook/pre-commit-git-hook.md)
+> 🔐 **Important:** This boilerplate includes a Git hook system that automatically blocks commits containing secrets like `.env`, `.env.local`, or `secrets.toml`.  
+> The hook is auto-installed by `activate-pre-commit`, which runs during setup via `setup-local-boilerplate.sh`.
 
 ---
 
