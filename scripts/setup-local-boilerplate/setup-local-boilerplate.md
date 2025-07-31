@@ -4,13 +4,10 @@ This script helps you create a clean, new local project using the `SaaS-boilerpl
 
 ---
 
-## 🧩 What This Script Does
-
 - Copies the full boilerplate repo into a new folder (you choose the name)
 - Removes the Git history so you're not tied to the original repo
 - Initializes a fresh Git project
 - Copies `.env.example` to `.env` for quick configuration
-- Automatically activates pre-commit hooks to protect your secrets
 
 ---
 
