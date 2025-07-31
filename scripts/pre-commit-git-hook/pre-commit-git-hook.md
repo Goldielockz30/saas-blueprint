@@ -1,71 +1,48 @@
 # 🔐 Commit Protection: Block Secrets From Being Pushed
 
-To prevent accidentally committing sensitive information like OpenAI keys (sk-...) or secret config files (.env, secrets.toml), this project includes a pre-commit hook script (pre-commit-git-hook.sh).
+This project includes a **pre-commit hook system** that automatically blocks you from committing sensitive files like:
 
-This script automatically scans your staged changes before each commit and blocks the commit if any secrets are detected.
+- `.env`
+- `frontend/.env.local`
+- `backend/secrets.toml`
+- `.vscode/launch.json`
+- and more...
 
-## 🚀 Setup Instructions
+This protects you from accidentally pushing API keys (like `sk-...`) or internal configs to GitHub.
 
-Move into your new project folder:
+---
 
-```bash
-cd new-project
-```
+## ✅ Already Activated for You
 
-## Enable the secret-blocking script:
-
-### 💻 Use bash terminal, Git Bash or WSL for this part:
-
-```bash
-# 1. Navigate to your project directory
-cd new-project
-
-# 2. Make the script executable
-chmod +x scripts/pre-commit-git-hook/pre-commit-git-hook.sh
-
-```
-
-### Install the pre-commit hook system, run these in (PowerShell or Bash — both work):
+If you ran:
 
 ```bash
-pre-commit clean
-pre-commit install
-pre-commit autoupdate
+bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
 ```
 
-### 🧪 Final Check (Just to Confirm Everything) use powershell or bash terminal.
+Then you're good to go —
+the secret protection hook (`activate-pre-commit`) has already been installed behind the scenes.
 
-Let’s test your custom secret-blocking pre-commit hook:
+No extra steps needed.
 
-```powershell
-# 1. Add a fake OpenAI key to your .env file
-echo "OPENAI_API_KEY=sk-test123" > .env
+---
 
-# 2. Force stage it (because .env is ignored by .gitignore)
-git add -f .env
+## 🧪 Want to Test It?
 
-# 3. Try to commit and trigger the pre-commit hook
-git commit -m "Pre-commit hook test"
-```
-
-### ❗ Troubleshooting: Hook Doesn’t Trigger?
-
-If your `.env` was tracked or committed previously, Git might ignore changes. Run:
+Try staging a secret manually:
 
 ```bash
-git reset .env && rm .env
-```
-
-```bash
-# Then recreate and test again:
 echo "OPENAI_API_KEY=sk-test123" > .env
 git add -f .env
-git commit -m "Pre-commit hook test"
+git commit -m "Test commit"
 ```
 
-✅ **Expected output:**
+You should see:
 
 ```text
+✅ **Expected output:**
+
+text
 Block Secret Keys......................................Failed
 - hook id: block-secrets
 - exit code: 1
@@ -73,17 +50,29 @@ Block Secret Keys......................................Failed
 ❌ Secrets detected in .env. Commit blocked.
 ```
 
-This confirms your Secrets key protection is working correctly.
+---
 
-### Stop tracking .env but keep it locally
+## 🛠️ Hook Not Triggering?
+
+If `.env` was already committed before, Git may ignore changes. Fix it like this:
+
+```bash
+git reset .env && rm .env
+echo "OPENAI_API_KEY=sk-test123" > .env
+git add -f .env
+git commit -m "Retest secret hook"
+```
+
+✅ If you saw this commit get blocked — congratulations!
+Your secret protection system is now active and working exactly as expected.
+You’re now protected from accidentally leaking critical files like .env or API keys.
+
+---
+
+## 🔄 Stop Tracking `.env` but Keep It Locally
 
 ```bash
 git rm --cached .env
-```
-
-### Commit the removal
-
-```bash
 git commit -m "Untrack .env after test"
 ```
 
@@ -92,3 +81,5 @@ git commit -m "Untrack .env after test"
 ### 👤 Created by Nana E. A. Johnson
 
 Tech Founder & Secure Systems Architect | [@Goldielockz](https://github.com/goldielockz30)
+
+---
