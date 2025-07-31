@@ -73,7 +73,7 @@ First, open a bash terminal and choose where you want your project folder to liv
 ```bash
 cd ~/Desktop  # or wherever you keep your projects
 git clone https://github.com/Goldielockz30/SaaS-boilerplate.git my-saas-app
-cd my-saas-app/scripts/setup-local-boilerplate
+cd my-saas-app
 bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
 ```
 
