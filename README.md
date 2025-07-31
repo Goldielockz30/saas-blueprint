@@ -68,7 +68,7 @@ This boilerplate is versatile and can serve as the foundation for building and s
 
 To start your own clean project using this boilerplate:
 
-First, open a bash terminal and choose where you want your project folder to live (e.g. Desktop, Documents, etc.)
+First, open your VS Code bash terminal and choose where you want your project folder to live (e.g. Desktop, Documents, etc.)
 
 ```bash
 cd ~/Desktop  # or wherever you keep your projects
