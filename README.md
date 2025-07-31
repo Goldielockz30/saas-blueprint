@@ -86,7 +86,7 @@ To start your own clean project using this boilerplate:
 cd ~/Desktop                  # Choose where you want your project folder to live and navigate into that folder (e.g. Desktop, Documents, etc.)
 ```
 
-To clone this project and run setup scripts run:
+To clone this project and run setup scripts:
 
 ```bash
 git clone https://github.com/Goldielockz30/SaaS-boilerplate.git
