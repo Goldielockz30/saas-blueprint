@@ -104,13 +104,24 @@ See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdow
 ## ⚙️ Quickstart
 
 1. Clone this repo
-2. Copy `.env.example` to `.env` and fill in your credentials
-3. Create and activate your Python virtual environment (`.venv`)
-4. Install backend dependencies and frontend packages
-5. Start development with Docker or run backend and frontend separately
-6. Use the included scripts and Git hooks for smooth workflow
+2. Review the folder map in `docs/folder-structure.md` and manually create any missing files, including hidden ones like
 
-For detailed setup and usage, see the docs in the `docs/` folder.
+```
+`.vscode/launch.json`
+`backend/secrets.toml`
+`backend/secrets/toml.enc`
+`frontend/.env.local`
+`infra/Dockerfile/backend`
+`infra/Dockerfile/frontend`
+`.env`
+```
+
+3. Copy `.env.example` to `.env` and fill in your credentials
+4. Create and activate your Python virtual environment (`.venv`)
+5. Install backend dependencies and frontend packages
+6. Start development with Docker, or run backend and frontend separately
+7. Use the included scripts and Git hooks for a smooth workflow (see `docs/precommit-hook.md` for test setup)
+8. For detailed setup or questions, contact me [@goldielockz](https://instagram.com/goldielockz)
 
 ---
 
