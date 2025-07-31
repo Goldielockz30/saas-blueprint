@@ -83,7 +83,7 @@ This boilerplate is versatile and can serve as the foundation for building and s
 To start your own clean project using this boilerplate:
 
 ```bash
-cd ~/Desktop                  # Choose where you want your project folder to live and navigate into that folder (e.g. Desktop, Documents, etc.)
+cd ~/Desktop # Choose where you want your project folder to live and navigate into that folder (e.g. Desktop, Documents, etc.)
 ```
 
 To clone this project and run setup scripts:
