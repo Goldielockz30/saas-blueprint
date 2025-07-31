@@ -24,7 +24,7 @@ It combines:
   Use it as a base for any SaaS product — AI tools, analytics dashboards, subscription marketplaces, or custom internal apps.
 
 - **Built for Real Development:**  
-  Includes critical tooling like environment checking scripts and secrets management templates to prevent common security mistakes.
+  Includes critical tooling, like environment checking scripts and secrets management templates to prevent common security mistakes.
 
 - **Easy to Customize and Extend:**  
   Clean code organization helps you scale your app without messy technical debt.
