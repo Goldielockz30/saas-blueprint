@@ -8,6 +8,7 @@ This script helps you create a clean, new local project using the `SaaS-boilerpl
 - Removes the Git history so you're not tied to the original repo
 - Initializes a fresh Git project
 - Copies `.env.example` to `.env` for quick configuration
+- ✅ **Auto-installs the pre-commit hook for secret protection**
 
 ---
 
@@ -23,14 +24,19 @@ scripts/setup-local-boilerplate/setup-local-boilerplate.sh
 
 ## ⚙️ How to Use It
 
-To start your own clean project using this boilerplate:
+To clone this boilerplate for reuse on multiple projects:
 
 First, open your VS Code bash terminal and choose where you want your project folder to live (e.g. Desktop, Documents, etc.)
 
 ```bash
-cd ~/Desktop  # or wherever you keep your projects
-git clone https://github.com/Goldielockz30/SaaS-boilerplate.git my-saas-app
-cd my-saas-app
+cd ~/Desktop  # or wherever you will keep your projects
+```
+
+Clone my SaaS-boilerplate and keep it as a local-boilerplate for future use or reference.
+
+```bash
+git clone https://github.com/Goldielockz30/SaaS-boilerplate.git
+cd SaaS-boilerplate
 bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
 ```
 
