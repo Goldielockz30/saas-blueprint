@@ -1,6 +1,6 @@
-# 🛠 Setup Guide for Windows & Mac (Manual Testers upskilling to SaaS App Developer)
+# 🛠 Your Journey to Secure SaaS Architect Starts Here
 
-This guide shows step-by-step how to install all required tools to start software testing and development work. It is beginner-friendly and written clearly for those who need extra detail.
+Your first step toward building secure, scalable software — the right way. This guide is beginner-friendly and written clearly for those who need extra detail.
 
 ---
 
