@@ -34,6 +34,7 @@
 │   └── 📄 secrets.toml.enc                # 🔒 Encrypted secrets (safe)
 
 📁 docs/
+├── 📄 prerequisites.md        # ⚙️ Required tools you need before setting up the project (Python, Node, Git, Docker, etc.)
 ├── 📄 folder-structure.md     # 🗂️ Visual map of the entire project layout
 └── 📄 venv-setup.md           # 🧰 Python virtual environment setup guide
 
@@ -73,6 +74,7 @@
 ├── 📁 scripts/                               # 📜 Dev and setup scripts
 │
 │   ├── 📁 pre-commit-git-hook/               # 🔐 Git hook to block secrets in commits
+│   │   ├── activate-pre-commit.sh
 │   │   ├── pre-commit-git-hook.sh
 │   │   └── pre-commit-git-hook.md
 │
