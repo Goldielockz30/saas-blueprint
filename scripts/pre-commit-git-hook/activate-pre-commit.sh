@@ -6,7 +6,9 @@
 echo "🔐 Activating pre-commit secret protection..."
 
 # Make sure the hook script is executable
-chmod +x scripts/pre-commit-git-hook/pre-commit-git-hook.sh
+SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+chmod +x "$SCRIPT_DIR/pre-commit-git-hook.sh"
+
 
 # Clean and install the hook system
 pre-commit clean
