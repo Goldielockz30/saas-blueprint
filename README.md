@@ -96,7 +96,28 @@ cd my-saas-app
 bash scripts/pre-commit-git-hook/setup-local-boilerplate.sh
 ```
 
-2. Use the included scripts and Git hooks for a smooth workflow, see [pre-commit-git-hook.md](/scripts/pre-commit-git-hook/pre-commit-git-hook.md)
+2. ## 🔄 What Happens After You Clone
+
+Cloning this repo using the instructions in my README does more than just download files — it **triggers a smart setup loop** that prepares your environment behind the scenes.
+
+### Here’s the flow:
+
+```text
+README instructions (manual)
+└──▶ setup-local-boilerplate.sh
+     └──▶ activate-pre-commit.sh
+           └──▶ pre-commit-git-hook.sh
+```
+
+### What this does:
+
+- ✅ Wipes old Git history and sets up a fresh repo just for you
+- ✅ Creates your `.env` file automatically from `.env.example`
+- ✅ Installs Git hooks to block secrets from being committed
+- ✅ Prepares the local workspace for secrets, Docker, and development
+
+You’ll still configure your own credentials and files —  
+but the **leak-proof safety system is fully automated** and already active.
 
 3. Review the folder map in `docs/folder-structure.md`
 
