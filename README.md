@@ -82,21 +82,29 @@ This boilerplate is versatile and can serve as the foundation for building and s
 
 ## ⚙️ Quickstart
 
-1. Clone this repo into a new folder:
+1. Using VS Code, choose where you want your project folder to live and navigate into that folder (e.g. Desktop, Documents, etc.)
+
+📦 Use a **bash terminal** (e.g. Git Bash, WSL, or the bash shell in VS Code) to run these setup commands.  
+You'll return to PowerShell or your usual terminal after the initial setup is complete.
+
+Inside the terminal run:
 
 ```bash
-cd ~/Desktop # Choose where you want your project folder to live and navigate into that folder (e.g. Desktop, Documents, etc.)
-```
-
-_(You can replace `my-saas-app` with your own project name)_
-
-```bash
+cd ~/Desktop
 git clone https://github.com/Goldielockz30/SaaS-boilerplate.git my-saas-app
 cd my-saas-app
+```
+
+2. Make sure you're using a **bash** terminal (not PowerShell or CMD). Then run the setup script:
+
+```bash
+cd ~/Desktop/my-saas-app
 bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
 ```
 
-2. ## 🔄 What Happens After You Clone
+💡 Tip: Your terminal location matters. If you’ve opened a new terminal window and it’s not in the project folder, run `pwd` to check your path or manually navigate back with `cd ~/Desktop/my-saas-app`
+
+## 🔄 What Happens After You Clone
 
 Cloning this repo using the instructions in my README does more than just download files — it **triggers a smart setup loop** that prepares your environment behind the scenes.
 
