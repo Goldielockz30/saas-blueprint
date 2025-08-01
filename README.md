@@ -195,7 +195,7 @@ The `.env` file contains your project’s environment variables — sensitive in
 
 ---
 
-## 🚀 Need help building with this?
+## 🤝🏾 Need help building with this?
 
 I offer hands-on guidance to walk you through launching your own app using this boilerplate. I also provide done-for-you services that package your app inside my secure, scalable DevSecOps framework so you can launch faster and safer.
 
