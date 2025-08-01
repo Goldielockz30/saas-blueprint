@@ -80,19 +80,58 @@ This boilerplate is versatile and can serve as the foundation for building and s
 > However, when running `.sh` (Bash) scripts — like the setup script below — make sure to switch to the **Bash terminal** first.  
 > You can do this in VS Code by clicking the dropdown in the terminal tab and selecting **"Git Bash"** or **"WSL"**, depending on your setup.
 
-To start your own clean project using this boilerplate:
+## ⚙️ Quickstart
+
+1. Clone this repo into a new folder:
 
 ```bash
 cd ~/Desktop # Choose where you want your project folder to live and navigate into that folder (e.g. Desktop, Documents, etc.)
 ```
 
-To clone this project and run setup scripts:
+_(You can replace `my-saas-app` with your own project name)_
 
 ```bash
-git clone https://github.com/Goldielockz30/SaaS-boilerplate.git
-cd SaaS-boilerplate
-bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
+git clone https://github.com/Goldielockz30/SaaS-boilerplate.git my-saas-app
+cd my-saas-app
+bash scripts/pre-commit-git-hook/setup-local-boilerplate.sh
 ```
+
+2. Use the included scripts and Git hooks for a smooth workflow, see [pre-commit-git-hook.md](/scripts/pre-commit-git-hook/pre-commit-git-hook.md)
+
+3. Review the folder map in `docs/folder-structure.md`
+
+4. Manually create any remaining files in the correct folder (particularly the hidden ones):
+
+   ```
+   .vscode/launch.json          # eg. In the .vscode folder create a file names launch.json
+   backend/secrets.toml         # eg. In the backend folder create a file names secrets.toml
+   backend/secrets.toml.enc     # This is a placeholder and will be overwritten with doppler
+   frontend/.env.local
+   infra/Dockerfile/backend
+   infra/Dockerfile/frontend
+   .env
+   ```
+
+5. Copy `.env.example` to `.env` and fill in your credentials  
+   _(If you're not sure what goes here, feel free to reach out, for now you can continue the steps without real keys.)_
+
+6. Set up your Python virtual environment (`.venv`)  
+   → See [`venv-setup.md`](docs/venv-setup.md) for backend setup
+
+7. Navigate into the `frontend/` folder, run `npm install`, then return to your project root:
+
+   ```bash
+   cd frontend
+   npm install
+   cd ..
+   ```
+
+   _(Note: `package.json` is currently empty — this is just a scaffold I can help you to build on.)_
+
+8. Start development with Docker, or run backend and frontend separately  
+   _(This boilerplate includes setup only — you’ll add your own app logic.)_
+
+9. For detailed setup or questions, contact me [@goldielockz](https://github.com/goldielockz)
 
 ---
 
@@ -120,30 +159,6 @@ project-root/
 ```
 
 See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdown of the repo layout.
-
----
-
-## ⚙️ Quickstart
-
-1. Clone this repo
-2. Review the folder map in `docs/folder-structure.md` and manually create any missing files, including hidden ones like
-
-```
-`.vscode/launch.json`
-`backend/secrets.toml`
-`backend/secrets/toml.enc`
-`frontend/.env.local`
-`infra/Dockerfile/backend`
-`infra/Dockerfile/frontend`
-`.env`
-```
-
-3. Copy `.env.example` to `.env` and fill in your credentials
-4. Create and activate your Python virtual environment (`.venv`)
-5. Install backend dependencies and frontend packages
-6. Start development with Docker, or run backend and frontend separately
-7. Use the included scripts and Git hooks for a smooth workflow (see `docs/precommit-hook.md` for test setup)
-8. For detailed setup or questions, contact me [@goldielockz](https://instagram.com/goldielockz)
 
 ---
 

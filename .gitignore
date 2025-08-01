@@ -17,6 +17,11 @@ dist/
 .next/
 out/
 .cache/
+.eslintcache
+.prettierignore
+.prettiercache/
+eslint-report.json
+*.tsbuildinfo
 
 # === C EXTENSIONS ===
 *.so
@@ -64,9 +69,9 @@ backend/secrets.toml
 backend/secrets.toml.enc
 !.env.example
 
-
 # === TESTING / COVERAGE ===
 htmlcov/
+coverage_html_report/
 .tox/
 .nox/
 .coverage
@@ -92,6 +97,8 @@ dmypy.json
 .ropeproject/
 ipython_config.py
 profile_default/
+*.swp
+*.swo
 
 # === DOCKER ===
 *.log
@@ -122,16 +129,26 @@ audit-reports/
 docs/_build/
 site/
 target/
+_build/
+*.mo
+*.pot
+*.po
 
-# === MISC PLATFORM FILES ===
+# === SYSTEM / MISC ===
 .DS_Store
 Thumbs.db
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+.python_history
 
 # === PIPENV / POETRY / PYFLOW ===
-# Pipfile.lock  # <- Uncomment if you want to ignore lockfile
 __pypackages__/
-*.lock
-poetry.lock
+__pydantic_cache__/
 
+# === PLATFORM CI/CD DIRECTORIES ===
+.turbo/
+.vercel/
+.netlify/
 
 
