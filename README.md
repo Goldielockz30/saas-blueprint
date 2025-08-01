@@ -152,7 +152,7 @@ but the **leak-proof safety system is fully automated** and already active.
 8. Start development with Docker, or run backend and frontend separately  
    _(This boilerplate includes setup only — you’ll add your own app logic.)_
 
-9. For detailed setup or questions, contact me [@goldielockz](https://github.com/goldielockz)
+9. For detailed setup or questions, contact me [@goldielockz](https://www.instagram.com/goldielockz)
 
 ---
 
@@ -205,6 +205,6 @@ DM me on Instagram [@Goldielockz](https://www.instagram.com/goldielockz) to get 
 
 ### 👤 Created by Nana E. A. Johnson
 
-Tech Founder & Secure Systems Architect | [@Goldielockz](https://github.com/goldielockz30)
+Tech Founder & Secure Systems Architect | [@Goldielockz](https://www.instagram.com/goldielockz)
 
 ---

@@ -263,3 +263,7 @@ git config --global user.email "your@email.com" # Replace with your email"
 ```
 
 ---
+
+### 👤 Created by Nana E. A. Johnson
+
+Tech Founder & Secure Systems Architect | [@Goldielockz](https://www.instagram.com/goldielockz)

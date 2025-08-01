@@ -110,4 +110,4 @@
 
 ### 👤 Created by Nana E. A. Johnson
 
-Tech Founder & Secure Systems Architect | [@Goldielockz](https://github.com/goldielockz30)
+Tech Founder & Secure Systems Architect | [@Goldielockz](https://www.instagram.com/goldielockz)
