@@ -93,7 +93,7 @@ _(You can replace `my-saas-app` with your own project name)_
 ```bash
 git clone https://github.com/Goldielockz30/SaaS-boilerplate.git my-saas-app
 cd my-saas-app
-bash scripts/pre-commit-git-hook/setup-local-boilerplate.sh
+bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
 ```
 
 2. ## 🔄 What Happens After You Clone
