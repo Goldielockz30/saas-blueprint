@@ -199,10 +199,10 @@ docker-compose -v  # Mac
 Open your **VS Code PowerShell Terminal (Windows)** or **Terminal (Mac)** and run the appropriate commands:
 
 ```bash
-# VS Code Terminal (PowerShell or Command Prompt) – Windows
+# VS Code Terminal (Bash or Command Prompt) – Windows
 python --version
 node -v
-npm -v
+npm -v             # Verify with Bash or CMD
 docker -v
 docker-compose -v
 code --version
