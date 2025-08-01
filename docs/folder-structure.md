@@ -93,7 +93,7 @@
 │   └── 📄 test_stripe_service.py   # 💳 Stripe service mock/test
 │
 ├── 📁 frontend/
-│   └── 📄 test_index.test.tsx      # 🎯 Renders homepage and checks basic UI
+│   └── 📄 index.test.tsx      # 🎯 Renders homepage and checks basic UI
 │
 └── 📄 conftest.py                  # 🧪 Shared fixtures (optional)
 
