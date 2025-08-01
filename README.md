@@ -191,7 +191,7 @@ The `.env` file contains your project’s environment variables — sensitive in
 - Ensures backend and frontend parts can access variables as needed
 - Allows tools like Docker, FastAPI, and frontend frameworks to load variables automatically
 
-`.env.example` is a template that lists all required environment variables with placeholder values for safe version control. During setup, it is automatically copied to `.env`, where you can replace the placeholders with your actual secrets. The `.env` file (and other sensitive files) is excluded from version control via .gitignore to prevent accidental leaks.
+`.env.example` is a template that lists all required environment variables with placeholder values for safe version control. During setup, it is automatically copied to `.env`, where you can replace the placeholders with your actual secrets. The `.env` file (and other sensitive files) is excluded from version control via `.gitignore` to prevent accidental leaks.
 
 ---
 
