@@ -103,8 +103,8 @@ bash scripts/pre-commit-git-hook/setup-local-boilerplate.sh
 4. Manually create any remaining files in the correct folder (particularly the hidden ones):
 
    ```
-   .vscode/launch.json          # eg. In the .vscode folder create a file names launch.json
-   backend/secrets.toml         # eg. In the backend folder create a file names secrets.toml
+   .vscode/launch.json          # eg. In the .vscode folder create a file named launch.json
+   backend/secrets.toml         # eg. In the backend folder create a file named secrets.toml
    backend/secrets.toml.enc     # This is a placeholder and will be overwritten with doppler
    frontend/.env.local
    infra/Dockerfile/backend
