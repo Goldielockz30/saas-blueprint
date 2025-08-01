@@ -14,14 +14,10 @@ This protects you from accidentally pushing API keys (like `sk-...`) or internal
 
 ## ✅ Already Activated for You
 
-If you ran:
+This boilerplate includes automated setup as long as you cloned it using the instructions in the GitHub README.
 
-```bash
-bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
-```
-
-Then you're good to go —
-the secret protection hook (`activate-pre-commit`) has already been installed behind the scenes.
+So you're good to go —
+the secret protection hook (activate-pre-commit) has already been installed behind the scenes.
 
 No extra steps needed.
 
