@@ -7,6 +7,13 @@ __pycache__/
 *.pyd
 *.pdb
 
+# === NODE / JAVASCRIPT ===
+node_modules/
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
 # === C EXTENSIONS ===
 *.so
 
