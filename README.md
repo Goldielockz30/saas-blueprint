@@ -67,10 +67,10 @@ This boilerplate is versatile and can serve as the foundation for building and s
 ## 🔧 💻 Minimum Recommended PC Specs for Dev Use
 
 | Component   | Recommended Minimum                           | Notes                                                                         |
-| ----------- | --------------------------------------------- | ----------------------------------------------------------------------------- | --- |
+| ----------- | --------------------------------------------- | ----------------------------------------------------------------------------- |
 | **CPU**     | AMD Ryzen 7 / Intel i7 (12th gen or newer)    | Multithreading for Docker + VS Code                                           |
 | **RAM**     | 32GB DDR4                                     | 16GB is okay for frontend-only work, but 32GB is better for Docker + training |
-| **Storage** | 1TB NVMe SSD                                  | Fast disk needed for images, builds, and training datasets                    |     |
+| **Storage** | 1TB NVMe SSD                                  | Fast disk needed for images, builds, and training datasets                    |
 | **OS**      | Windows 11 Pro + WSL2 or Linux (Ubuntu 22.04) | Full compatibility with Docker and CLI tools                                  |
 | **Display** | 1080p dual-monitor setup                      | Makes dev, testing, and VS Code workflows easier                              |
 | **Cooling** | Good airflow or liquid cooling                | If running containers, VMs, or models for long periods                        |
@@ -85,7 +85,7 @@ See [`prerequisites.md`](docs/prerequisites.md) for install instructions:
 
 ---
 
-## 🚀 Getting Started Locally
+## 🛠️ Getting Started Locally
 
 > 🛠 **Note:** Most of your development work can be done in the default **PowerShell terminal** in VS Code.  
 > However, when running `.sh` (Bash) scripts — like the setup script below — make sure to switch to the **Bash terminal** first.  
