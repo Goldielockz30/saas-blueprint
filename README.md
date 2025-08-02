@@ -186,7 +186,7 @@ but the **leak-proof safety system is fully automated** and already active.
 project-root/
 ├── backend/         # FastAPI app
 ├── frontend/        # Next.js app
-├── infra/           # Docker, deploy, secrets
+├── infra/           # Docker, deploy
 ├── docs/            # Guides and architecture docs
 ├── tests/           # Project-wide test suites
 ├── scripts/         # Utility scripts and CLI tools
@@ -195,7 +195,7 @@ project-root/
 ├── README.md        # Project overview and instructions
 ├── LICENSE          # License information
 ├── Makefile         # Common CLI commands
-└── .env.example      # Template for environment variables
+└── .env.example     # Template for environment variables
 ```
 
 See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdown of the repo layout.
