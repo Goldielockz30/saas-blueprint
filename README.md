@@ -184,18 +184,24 @@ but the **leak-proof safety system is fully automated** and already active.
 
 ```
 project-root/
-├── backend/         # FastAPI app
-├── frontend/        # Next.js app
-├── infra/           # Docker, deploy
-├── docs/            # Guides and architecture docs
-├── tests/           # Project-wide test suites
-├── scripts/         # Utility scripts and CLI tools
-├── .github/         # GitHub Actions and workflows
-├── .gitignore       # Ignore patterns for Git
-├── README.md        # Project overview and instructions
-├── LICENSE          # License information
-├── Makefile         # Common CLI commands
-└── .env.example     # Template for environment variables
+├── .github/                   # GitHub Actions workflows (CI/CD)
+├── .vscode/                   # VS Code workspace settings and extensions
+├── backend/                   # FastAPI app (API, routes, services, models)
+├── docs/                      # DevSecOps docs, setup guides, architecture diagrams
+├── frontend/                  # Next.js app (UI, components, pages)
+├── infra/                     # Dockerfiles, deployment configs (no secrets folder)
+│   ├── docker/                # Dockerfile.backend, Dockerfile.frontend
+│   └── deploy/                # GHCR, Railway, CI/CD scripts
+├── scripts/                   # CLI tools, setup scripts, automation
+├── tests/                     # Project-wide and backend test suites
+├── .dockerignore              # Docker ignore rules (controls build context)
+├── .env.example               # Template for environment variables
+├── .gitignore                 # Git ignore rules (prevents committing secrets, etc.)
+├── .pre-commit-config.yaml    # Pre-commit hook setup (includes secret leak blocking + format/lint rules)
+├── LICENSE                    # License file (MIT, Apache, or custom)
+├── Makefile                   # CLI shortcuts for build, test, format, etc.
+└── README.md                  # Project overview and setup instructions
+
 ```
 
 See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdown of the repo layout.
