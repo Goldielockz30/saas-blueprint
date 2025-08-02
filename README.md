@@ -138,7 +138,7 @@ README instructions (manual)
 You’ll still configure your own credentials and files —  
 but the **leak-proof safety system is fully automated** and already active.
 
-3. Review the folder map in `docs/folder-structure.md`
+3. Review the folder map in [`folder-structure.md`](./docs/folder-structure.md)
 
 4. Manually create any remaining files in the correct folder (particularly the hidden ones):
 
