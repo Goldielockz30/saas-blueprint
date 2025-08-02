@@ -152,7 +152,12 @@ but the **leak-proof safety system is fully automated** and already active.
    .env
    ```
 
-5. Copy `.env.example` to `.env` and fill in your credentials  
+5. Your `.env` file has been auto-created from `.env.example`.
+
+   Fill in your real credentials before running the app.
+
+   ⚠️ These values are required for the app to start and connect to its services correctly.
+
    _(If you're not sure what goes here, feel free to reach out, for now you can continue the steps without real keys.)_
 
 6. Set up your Python virtual environment (`.venv`)  
