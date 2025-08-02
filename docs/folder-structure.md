@@ -98,7 +98,7 @@
 └── 📄 conftest.py                  # 🧪 Shared fixtures (optional)
 
 📄 .env                              # 🔐 Gitignored — local only
-📄 env.example                       # 🔪 Safe starter template
+📄 .env.example                       # 🔪 Safe starter template
 📄 .gitignore                        # ❌ Keeps secrets and temp files out of Git
 📄 .pre-commit-config.yaml           # 🔢 Pre-commit hook setup
 📄 Makefile                          # 🚀 Dev automation
