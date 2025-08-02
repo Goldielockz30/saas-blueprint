@@ -201,7 +201,6 @@ project-root/
 ├── LICENSE                    # License file (MIT, Apache, or custom)
 ├── Makefile                   # CLI shortcuts for build, test, format, etc.
 └── README.md                  # Project overview and setup instructions
-
 ```
 
 See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdown of the repo layout.
