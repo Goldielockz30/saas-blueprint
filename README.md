@@ -5,6 +5,8 @@
 ![Dockerized](https://img.shields.io/badge/docker-ready-blue?logo=docker)  
 ![CI optional](https://img.shields.io/badge/CI-GitHub%20Actions%20available%20but%20disabled-lightgrey)
 
+---
+
 ## 🏃🏾‍♀️⚡ Fast-Track Your SaaS Development
 
 This **SaaS-Boilerplate** is a clean, minimal, developer-ready starter kit designed to help you launch full-stack SaaS applications quickly and confidently.
