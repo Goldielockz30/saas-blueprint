@@ -195,7 +195,7 @@ project-root/
 ├── README.md        # Project overview and instructions
 ├── LICENSE          # License information
 ├── Makefile         # Common CLI commands
-└── env.example      # Template for environment variables
+└── .env.example      # Template for environment variables
 ```
 
 See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdown of the repo layout.
