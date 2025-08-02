@@ -189,7 +189,7 @@ project-root/
 ├── backend/                   # FastAPI app (API, routes, services, models)
 ├── docs/                      # DevSecOps docs, setup guides, architecture diagrams
 ├── frontend/                  # Next.js app (UI, components, pages)
-├── infra/                     # Dockerfiles, deployment configs (no secrets folder)
+├── infra/                     # Dockerfiles, deployment configs
 │   ├── docker/                # Dockerfile.backend, Dockerfile.frontend
 │   └── deploy/                # GHCR, Railway, CI/CD scripts
 ├── scripts/                   # CLI tools, setup scripts, automation
