@@ -154,8 +154,8 @@ but the **leak-proof safety system is fully automated** and already active.
    backend/secrets.toml         # eg. In the backend folder create a file named secrets.toml
    backend/secrets.toml.enc     # This is a placeholder and will be overwritten with doppler
    frontend/.env.local
-   infra/Dockerfile/backend
-   infra/Dockerfile/frontend
+   infra/Dockerfile.backend
+   infra/Dockerfile.frontend
    .env
    ```
 
