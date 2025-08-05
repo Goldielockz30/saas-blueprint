@@ -37,12 +37,14 @@ Clone my SaaS-boilerplate and keep it as a local-boilerplate for future use or r
 ```bash
 git clone https://github.com/Goldielockz30/SaaS-boilerplate.git local-boilerplate            # Edit the name eg. loacl-boilerplate
 cd local-boilerplate
-bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
 ```
 
-Then follow the prompts to create your own local project folder.
+Use a **bash** terminal to run the following setup script!
 
----
+```bash
+cd ~/Desktop/local-boilerplate
+bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
+```
 
 ## ✅ Result
 
