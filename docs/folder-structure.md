@@ -29,9 +29,7 @@
 │   │   ├── 📄 main.py                     # 🚀 FastAPI app entry point
 │   │   └── 📄 logging_config.py           # 📋 Logging setup (optional)
 │   ├── 🐳 Dockerfile                      # 💣 Backend Dockerfile
-│   ├── 📄 requirements.txt                # 📦 Python dependencies
-│   ├── 📄 secrets.toml                    # 🔐 Local secrets (never committed)
-│   └── 📄 secrets.toml.enc                # 🔒 Encrypted secrets (safe)
+│   └── 📄 requirements.txt                # 📦 Python dependencies
 
 📁 docs/
 ├── 📄 prerequisites.md        # ⚙️ Required tools you need before setting up the project (Python, Node, Git, Docker, etc.)

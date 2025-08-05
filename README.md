@@ -151,8 +151,6 @@ but the **leak-proof safety system is fully automated** and already active.
 
    ```
    .vscode/launch.json          # eg. In the .vscode folder create a file named launch.json
-   backend/secrets.toml         # eg. In the backend folder create a file named secrets.toml
-   backend/secrets.toml.enc     # This is a placeholder and will be overwritten with doppler
    frontend/.env.local
    infra/Dockerfile.backend
    infra/Dockerfile.frontend
