@@ -41,13 +41,29 @@ Windows Subsystem for Linux has no installed distributions.
    wsl --install
    ```
 
-2. Wait for it to finish installing and **restart your PC**.
+2. Wait for it to finish installing.
 
-3. After restart, WSL will launch and ask for a username/password (just choose anything — it's only for WSL).
+   > 📝 **Note:** You _might_ be prompted to restart your PC, but most systems **don’t require a restart**. If it asks, go ahead — otherwise, you can continue.
 
-✅ Once this is done, you're ready to activate the Git hook in the next step.
+3. WSL will launch and ask for a username/password (just choose anything — it's only for WSL).
+
+✅ WSL is now ready, and you're back in your main terminal.
 
 ---
+
+### 🔁 Return to PowerShell
+
+After the WSL setup completes:
+
+1. **Close the WSL terminal window** if it's still open.
+2. **Reopen PowerShell (not WSL)**.
+3. Navigate back to your project folder:
+
+   ```powershell
+   cd ~/Desktop/saas-starter
+   ```
+
+Now you're ready to continue.
 
 ## 🧪 Want to Test It?
 
