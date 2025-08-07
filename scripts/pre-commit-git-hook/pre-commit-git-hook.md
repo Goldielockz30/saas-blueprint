@@ -23,6 +23,32 @@ No extra steps needed.
 
 ---
 
+## ⚙️ WSL Setup for Windows Users (Required for Secret Blocker)
+
+If you're on **Windows**, the Secrets Commit Blocker hook requires **WSL (Windows Subsystem for Linux)** to run properly.
+
+Without it, you’ll get an error like:
+
+```bash
+Windows Subsystem for Linux has no installed distributions.
+```
+
+### 🛠 One-time setup:
+
+1. **Open PowerShell as Administrator**, then run:
+
+   ```powershell
+   wsl --install
+   ```
+
+2. Wait for it to finish installing and **restart your PC**.
+
+3. After restart, WSL will launch and ask for a username/password (just choose anything — it's only for WSL).
+
+✅ Once this is done, you're ready to activate the Git hook in the next step.
+
+---
+
 ## 🧪 Want to Test It?
 
 Try staging a secret manually:
