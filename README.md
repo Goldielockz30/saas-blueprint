@@ -94,9 +94,13 @@ See [`prerequisites.md`](docs/prerequisites.md) for install instructions:
 
 ## 🛠️ Getting Started Locally
 
-> 🛠 **Note:** Most of your development work can be done in the default **PowerShell terminal** in VS Code.  
-> However, when running `.sh` (Bash) scripts — like the setup script below — make sure to switch to the **Bash terminal** first.  
-> You can do this in VS Code by clicking the dropdown in the terminal tab and selecting **"Git Bash"** or **"WSL"**, depending on your setup.
+> 🛠 **Note:** This project starts in the default **PowerShell terminal** for initial folder setup and cloning.  
+> But once WSL is installed, all further development should happen inside the **Ubuntu (WSL)** terminal.  
+> This includes running `.sh` (bash) scripts, installing dependencies, running the dev server, and activating Git hooks.
+
+You can switch terminals in VS Code by clicking the dropdown in the terminal tab and selecting **"WSL: Ubuntu"**.  
+If you're using macOS or Linux, your terminal is already Bash-compatible.
+
 
 ## ⚙️ Quickstart
 
