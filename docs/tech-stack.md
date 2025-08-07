@@ -15,7 +15,7 @@ This project is a DevSecOps-ready SaaS boilerplate designed for tech founders, i
 - **Database**: PostgreSQL (hosted via Supabase)
 - **ORM**: SQLAlchemy
 - **Auth**: Supabase (JWT or OAuth2)
-- **Secrets Management**: `secrets.toml` + Doppler (optional)
+- **Secrets Management**: `.env` (root) + Doppler (optional)
 
 ### 🌐 Frontend
 
@@ -45,12 +45,13 @@ See `docs/folder-structure.md`
 
 ## 🛡️ Security
 
-- `.env` files gitignored
-- Pre-commit hook blocks OpenAI keys and secrets
-- Doppler integration supported
-- GitHub Actions with secret masking
-- Backend secrets are stored in `secrets.toml`, loaded via decryption at runtime
+- `.env` files are gitignored and never committed
+- A pre-commit hook blocks OpenAI keys and other secrets
+- Doppler is the primary secret manager across environments
+- For local fallback, we encrypt `.env` into `.env.enc` and delete the original
+- At runtime, the app decrypts `.env.enc` in memory — nothing is written to disk
 - Frontend secrets live in `.env.local` (for client-side use)
+- GitHub Actions are configured with secret masking
 
 ---
 
