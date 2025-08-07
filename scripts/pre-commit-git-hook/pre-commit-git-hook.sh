@@ -6,8 +6,8 @@ sensitive_files=(
   ".env"
   "frontend/.env.local"
   ".vscode/launch.json"
-  "infra/Dockerfile.backend"
-  "infra/Dockerfile.frontend"
+  "infra/docker/Dockerfile.backend"
+  "infra/docker/Dockerfile.frontend"
 )
 
 staged_files=$(git diff --cached --name-only)
