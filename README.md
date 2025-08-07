@@ -89,7 +89,9 @@ See [`prerequisites.md`](docs/prerequisites.md) for install instructions:
 - Node.js 18+ (LTS version, includes npm)
 - Docker + Docker Compose
 - Git + GitHub account
-
+- **WSL (Ubuntu)** installed if you’re on Windows ([Microsoft Guide](https://learn.microsoft.com/windows/wsl/install))
+  - In VS Code, install the **Remote - WSL** extension
+  - You’ll run all commands from the **WSL: Ubuntu** terminal
 ---
 
 ## 🛠️ Getting Started Locally
