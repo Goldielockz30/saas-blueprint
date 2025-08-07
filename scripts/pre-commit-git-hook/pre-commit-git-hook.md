@@ -23,48 +23,6 @@ No extra steps needed.
 
 ---
 
-## ⚙️ WSL Setup for Windows Users (Required for Secret Blocker)
-
-If you're on **Windows**, the Secrets Commit Blocker hook requires **WSL (Windows Subsystem for Linux)** to run properly.
-
-Without it, you’ll get an error like:
-
-```bash
-Windows Subsystem for Linux has no installed distributions.
-```
-
-### 🛠 One-time setup:
-
-1. **Open PowerShell as Administrator**, then run:
-
-   ```powershell
-   wsl --install
-   ```
-
-2. Wait for it to finish installing.
-
-   > 📝 **Note:** You _might_ be prompted to restart your PC, but most systems **don’t require a restart**. If it asks, go ahead — otherwise, you can continue.
-
-3. WSL will launch and ask for a username/password (just choose anything — it's only for WSL).
-
-✅ WSL is now ready, and you're back in your main terminal.
-
----
-
-### 🔁 Return to PowerShell
-
-After the WSL setup completes:
-
-1. **Close the WSL terminal window** if it's still open.
-2. **Reopen PowerShell (not WSL)**.
-3. Navigate back to your project folder:
-
-   ```powershell
-   cd ~/Desktop/saas-starter
-   ```
-
-Now you're ready to continue.
-
 ## 🧪 Want to Test It?
 
 Try staging a secret manually:
