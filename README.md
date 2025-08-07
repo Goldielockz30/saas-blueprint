@@ -150,10 +150,10 @@ but the **leak-proof safety system is fully automated** and already active.
 4. Manually create any remaining files in the correct folder (particularly the hidden ones):
 
    ```
-   .vscode/launch.json          # eg. In the .vscode folder create a file named launch.json
+   .vscode/launch.json              # eg. In the .vscode folder create a file named launch.json
    frontend/.env.local
-   infra/Dockerfile.backend
-   infra/Dockerfile.frontend
+   infra/docker/Dockerfile.backend  # eg. In docker folder nested in the infra folder create a file named launch.json
+   infra/docker/Dockerfile.frontend
    .env
    ```
 
