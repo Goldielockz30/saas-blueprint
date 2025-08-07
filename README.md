@@ -94,20 +94,14 @@ See [`prerequisites.md`](docs/prerequisites.md) for install instructions:
 
 ## 🛠️ Getting Started Locally
 
-> 🛠 **Note:** This project starts in the default **PowerShell terminal** for initial folder setup and cloning.  
-> But once WSL is installed, all further development should happen inside the **Ubuntu (WSL)** terminal.  
-> This includes running `.sh` (bash) scripts, installing dependencies, running the dev server, and activating Git hooks.
-
-You can switch terminals in VS Code by clicking the dropdown in the terminal tab and selecting **"WSL: Ubuntu"**.  
-If you're using macOS or Linux, your terminal is already Bash-compatible.
-
+> 🛠 **Note:** All setup is done from inside the **Ubuntu (WSL)** terminal on Windows, or the default terminal on macOS/Linux.  
+> This ensures Python, npm, and Git hooks are installed in a Linux environment — matching deployment.
 
 ## ⚙️ Quickstart
 
-1. Using VS Code, choose where you want your project folder to live and navigate into that folder (e.g. Desktop, Documents, etc.)
+### 1. Open a WSL Terminal
 
-📦 Use a **bash terminal** (e.g. Git Bash, WSL, or the bash shell in VS Code) to run these setup commands.  
-You'll return to PowerShell or your usual terminal after the initial setup is complete.
+In VS Code, open the terminal dropdown and select **"WSL: Ubuntu"**.
 
 Inside the terminal run:
 
@@ -117,7 +111,7 @@ git clone https://github.com/Goldielockz30/saas-boilerplate.git saas-starter
 cd saas-starter
 ```
 
-2. Make sure you're using a **bash** terminal (not PowerShell or CMD). Then run the setup script:
+2. Then run the setup script:
 
 ```bash
 cd ~/Desktop/saas-starter
