@@ -6,7 +6,7 @@
 │   └── 🔧 build.yml.disabled               # 📇 Disabled CI/CD build pipeline (rename to enable)
 
 💼 .vscode/
-├── 🐞 launch.json                          # ✅ Debug config
+├── 🐞 launch.json                          # ✅ Debug config   🔐 Gitignored
 └── 🛠 settings.json                         # ✅ Editor & interpreter config
 
 
@@ -28,12 +28,12 @@
 │   │   │   └── 📄 security.py             # 🔐 Auth, headers, etc.
 │   │   ├── 📄 main.py                     # 🚀 FastAPI app entry point
 │   │   └── 📄 logging_config.py           # 📋 Logging setup (optional)
-│   ├── 🐳 Dockerfile                      # 💣 Backend Dockerfile
-│   └── 📄 requirements.txt                # 📦 Python dependencies
+│   └── 🐳 Dockerfile                      # 💣 Backend Dockerfile
 
 📁 docs/
 ├── 📄 prerequisites.md        # ⚙️ Required tools you need before setting up the project (Python, Node, Git, Docker, etc.)
 ├── 📄 folder-structure.md     # 🗂️ Visual map of the entire project layout
+├── 📄 tech-stack.md           # 🧱 Overview of frameworks, tools, and infrastructure used
 └── 📄 venv-setup.md           # 🧰 Python virtual environment setup guide
 
 
@@ -60,8 +60,8 @@
 
 ├── 🏋️ infra/                               # ✅ Infrastructure as Code (IaC)
 │   ├── 📁 docker/                          # 💣 Docker configs
-│   │   ├── 📄 Dockerfile.backend           # ⚖️ FastAPI backend container
-│   │   ├── 📄 Dockerfile.frontend          # 🎨 Next.js frontend container
+│   │   ├── 📄 Dockerfile.backend           # ⚖️ FastAPI backend container 🔐 Gitignored
+│   │   ├── 📄 Dockerfile.frontend          # 🎨 Next.js frontend container 🔐 Gitignored
 │   │   ├── 📄 docker-compose.yml           # ⚙️ Local multi-service setup
 │   │   └── 📄 .dockerignore                # 🧼 Ignore secrets, temp files
 │   ├── 📁 deploy/                          # 🚀 Deployment helpers
@@ -95,13 +95,15 @@
 │
 └── 📄 conftest.py                  # 🧪 Shared fixtures (optional)
 
+📄 .dockerignore                     # 🚫 Files & folders excluded from Docker build context
 📄 .env                              # 🔐 Gitignored — local only
 📄 .env.example                      # 🔪 Safe starter template
 📄 .gitignore                        # ❌ Keeps secrets and temp files out of Git
 📄 .pre-commit-config.yaml           # 🔢 Pre-commit hook setup
+📄 LICENSE                           # 📜 Legal terms for using, sharing, or modifying your code
 📄 Makefile                          # 🚀 Dev automation
 📄 README.md                         # 📘 Project overview
-
+📄 requirements.txt                  # 📦 Python dependencies
 ```
 
 ---

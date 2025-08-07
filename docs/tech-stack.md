@@ -55,11 +55,11 @@ See `docs/folder-structure.md`
 
 ---
 
-## ✅ Future Additions
+## 🔭 Planned Features (in active roadmap)
 
-- Email auth (via Supabase or Postmark)
-- Advanced logging
-- Webhooks (Stripe + GitHub)
+- Supabase email login (Postmark optional)
+- Advanced structured logging (Logtail or Sentry)
+- Stripe and GitHub webhook integrations
 
 ---
 
