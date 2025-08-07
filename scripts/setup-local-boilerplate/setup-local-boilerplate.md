@@ -26,10 +26,21 @@ scripts/setup-local-boilerplate/setup-local-boilerplate.sh
 
 To clone this boilerplate for reuse on multiple projects:
 
-First, open your VS Code bash terminal and choose where you want your project folder to live (e.g. Desktop, Documents, etc.)
+### 1. Open a WSL Terminal
+
+In VS Code, open the terminal dropdown and select **"WSL: Ubuntu"**.
+
+Create a folder inside your Linux home directory:
 
 ```bash
-cd ~/Desktop  # or wherever you will keep your projects
+mkdir -p ~/projects
+cd ~/projects
+```
+
+To check where you are:
+
+```bash
+pwd
 ```
 
 Clone my SaaS-boilerplate and keep it as a local-boilerplate for future use or reference.
@@ -42,7 +53,7 @@ cd starter-template
 Use a **bash** terminal to run the following setup script!
 
 ```bash
-cd ~/Desktop/starter-template
+cd ~/projects/starter-template
 bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
 ```
 

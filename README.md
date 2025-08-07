@@ -105,10 +105,21 @@ See [`prerequisites.md`](docs/prerequisites.md) for install instructions:
 
 In VS Code, open the terminal dropdown and select **"WSL: Ubuntu"**.
 
-Inside the terminal run:
+Create a folder inside your Linux home directory:
 
 ```bash
-cd ~/Desktop
+mkdir -p ~/projects
+cd ~/projects
+```
+
+To check where you are:
+
+```bash
+pwd
+```
+
+```bash
+cd ~/projects
 git clone https://github.com/Goldielockz30/saas-boilerplate.git saas-starter
 cd saas-starter
 ```
@@ -116,11 +127,11 @@ cd saas-starter
 2. Then run the setup script:
 
 ```bash
-cd ~/Desktop/saas-starter
+cd ~/projects/saas-starter
 bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
 ```
 
-💡 Tip: Your terminal location matters. If you’ve opened a new terminal window and it’s not in the project folder, run `pwd` to check your path or manually navigate back with `cd ~/Desktop/saas-starter`
+💡 Tip: Your terminal location matters. If you’ve opened a new terminal window and it’s not in the project folder, run `pwd` to check your path or manually navigate back with `cd ~/projects/saas-starter`
 
 ## 🪄 What Happens After You Clone
 
