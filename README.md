@@ -122,13 +122,14 @@ pwd
 cd ~/projects
 git clone https://github.com/Goldielockz30/saas-boilerplate.git saas-starter
 cd saas-starter
+code .
 ```
 
 2. Then run the setup script:
 
 ```bash
 cd ~/projects/saas-starter
-bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
+bash scripts/setup.sh
 ```
 
 💡 Tip: Your terminal location matters. If you’ve opened a new terminal window and it’s not in the project folder, run `pwd` to check your path or manually navigate back with `cd ~/projects/saas-starter`
