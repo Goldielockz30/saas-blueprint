@@ -188,7 +188,7 @@ but the **leak-proof safety system is fully automated** and already active.
    cd ..
    ```
 
-   _(Note: `package.json` is currently empty — this is just a scaffold I can help you to build on.)_
+   _(Note: `package.json` is currently empty — this is just a scaffold.)_
 
 8. Start development with Docker, or run backend and frontend separately  
    _(This boilerplate includes setup only — you’ll add your own app logic.)_
@@ -238,14 +238,6 @@ The `.env` file contains your project’s environment variables — sensitive in
 
 > 🔐 **Important:** This boilerplate includes a Git hook system that automatically blocks commits containing secrets like `.env`, `.env.local`, or `secrets.toml`.  
 > The hook is auto-installed by `activate-pre-commit`, which runs during setup via `setup-local-boilerplate.sh`.
-
----
-
-## 🤝🏾 Need help building with this?
-
-I offer hands-on guidance to walk you through launching your own app using this boilerplate. I also provide done-for-you services that package your app inside my secure, scalable DevSecOps framework so you can launch faster and safer.
-
-DM me on Instagram [@Goldielockz](https://www.instagram.com/goldielockz) to get started.
 
 ---
 
