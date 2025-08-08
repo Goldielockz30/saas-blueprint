@@ -92,9 +92,12 @@ See [`prerequisites.md`](docs/prerequisites.md) for install instructions:
 - **WSL (Ubuntu)** installed if you’re on Windows ([Microsoft Guide](https://learn.microsoft.com/windows/wsl/install))
   - In VS Code, install the **Remote - WSL** extension
   - You’ll run all commands from the **WSL: Ubuntu** terminal
+
 ---
 
 ## 🛠️ Getting Started Locally
+
+> To start we will use the VS Code default PowerShell Terminal to create your folder for projects.
 
 > 🛠 **Note:** All setup is done from inside the **Ubuntu (WSL)** terminal on Windows, or the default terminal on macOS/Linux.  
 > This ensures Python, npm, and Git hooks are installed in a Linux environment — matching deployment.
@@ -104,6 +107,10 @@ See [`prerequisites.md`](docs/prerequisites.md) for install instructions:
 ### 1. Open a WSL Terminal
 
 In VS Code, open the terminal dropdown and select **"WSL: Ubuntu"**.
+
+> Open VS Code in WSL Mode (so you can see the project in the sidebar)
+
+> Press Ctrl+Shift+P → type "WSL: New Window" → select "WSL: Ubuntu"
 
 Create a folder inside your Linux home directory:
 
