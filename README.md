@@ -116,23 +116,18 @@ In the WSL terminal that opens at the bottom, run:
 
 ```bash
 # Create a projects folder if it doesn't exist
-
-mkdir -p ~/projects
-cd ~/projects
 ```
-
-To check where you are:
+In the WSL terminal that opens in the VS Code pop up window run:
 
 ```bash
-pwd
-```
-
-```bash
+mkdir -p ~/projects   # Create a projects folder if it doesn't exist
 cd ~/projects
 git clone https://github.com/Goldielockz30/saas-boilerplate.git saas-starter
 cd saas-starter
 code .
 ```
+A new VS Code window will open showing your saas-starter folder on the left — this is your main project workspace.
+Close all other VS Code windows so you don’t edit the wrong folder by mistake.
 
 2. Then run the setup script:
 
