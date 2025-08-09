@@ -3,14 +3,14 @@
   "editor.tabSize": 2,
   "files.trimTrailingWhitespace": true,
 
-  // Python formatting & linting
+  // 🐍✨ Python formatting & linting
 
   "python.formatting.provider": "black",
   "python.linting.enabled": true,
   "python.linting.flake8Enabled": true,
   "python.linting.mypyEnabled": true,
 
-  // JavaScript/TypeScript linting
+  // 💻🔍 JavaScript/TypeScript linting
 
   "eslint.validate": [
     "javascript",
@@ -20,13 +20,13 @@
   ],
   "prettier.requireConfig": true,
 
-  // ✅ WSL-specific adjustments
+  // 🐧⚙️ WSL-specific adjustments
 
   "python.defaultInterpreterPath": "/usr/bin/python3",
   "terminal.integrated.defaultProfile.linux": "bash",
 
-  // ✅ For src/ layout imports
-  
+  // 📂📦 Extra import paths for src/ layout
+
   "python.analysis.extraPaths": [
     "./backend/src"
   ]
