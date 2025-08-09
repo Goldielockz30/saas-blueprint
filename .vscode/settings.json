@@ -4,12 +4,14 @@
   "files.trimTrailingWhitespace": true,
 
   // Python formatting & linting
+
   "python.formatting.provider": "black",
   "python.linting.enabled": true,
   "python.linting.flake8Enabled": true,
   "python.linting.mypyEnabled": true,
 
   // JavaScript/TypeScript linting
+
   "eslint.validate": [
     "javascript",
     "javascriptreact",
@@ -19,10 +21,12 @@
   "prettier.requireConfig": true,
 
   // ✅ WSL-specific adjustments
+
   "python.defaultInterpreterPath": "/usr/bin/python3",
   "terminal.integrated.defaultProfile.linux": "bash",
 
   // ✅ For src/ layout imports
+  
   "python.analysis.extraPaths": [
     "./backend/src"
   ]
