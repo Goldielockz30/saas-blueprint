@@ -1,8 +1,8 @@
 # SaaS-Boilerplate
 
-![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)  
-![Pre-commit enabled](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)  
-![Dockerized](https://img.shields.io/badge/docker-ready-blue?logo=docker)  
+![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
+![Pre-commit enabled](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)
+![Dockerized](https://img.shields.io/badge/docker-ready-blue?logo=docker)
 ![CI optional](https://img.shields.io/badge/CI-GitHub%20Actions%20available%20but%20disabled-lightgrey)
 
 ---
@@ -24,35 +24,35 @@ It combines:
 
 ## 🔐 Why This Boilerplate Is Valuable
 
-- **Saves Hours of Setup Time:**  
+- **Saves Hours of Setup Time:**
   No need to reinvent the wheel — get a solid folder structure and working environment right away.
 
-- **Flexible and Adaptable:**  
+- **Flexible and Adaptable:**
   Use it as a base for any SaaS product — AI tools, analytics dashboards, subscription marketplaces, or custom internal apps.
 
-- **Built for Real Development:**  
+- **Built for Real Development:**
   Includes critical tooling, like environment checking scripts and secrets management templates to prevent common security mistakes.
 
-- **Easy to Customize and Extend:**  
+- **Easy to Customize and Extend:**
   Clean code organization helps you scale your app without messy technical debt.
 
-- **Great for Learning and Collaboration:**  
+- **Great for Learning and Collaboration:**
   Perfect for solo developers, small teams, or mentoring sessions — ideal for learning real-world SaaS development.
 
 ---
 
 ## 👥 Who Is This For?
 
-- **Developers and Freelancers:**  
+- **Developers and Freelancers:**
   Need a fast, reliable starting point for client projects or side hustles.
 
-- **Small Dev Teams:**  
+- **Small Dev Teams:**
   Want a shared foundation that enforces best practices and consistency.
 
-- **Students and Learners:**  
+- **Students and Learners:**
   Looking to understand how to structure and build modern SaaS apps.
 
-- **Tech Mentors and Educators:**  
+- **Tech Mentors and Educators:**
   Need a practical scaffold to teach backend/frontend integration, DevOps basics, and deployment prep.
 
 ---
@@ -99,7 +99,7 @@ See [`prerequisites.md`](docs/prerequisites.md) for install instructions:
 
 > To start we will use the VS Code default PowerShell Terminal to create your folder for projects.
 
-> 🛠 **Note:** All setup is done from inside the **Ubuntu (WSL)** terminal on Windows, or the default terminal on macOS/Linux.  
+> 🛠 **Note:** All setup is done from inside the **Ubuntu (WSL)** terminal on Windows, or the default terminal on macOS/Linux.
 > This ensures Python, npm, and Git hooks are installed in a Linux environment — matching deployment.
 
 ## ⚙️ Quickstart
@@ -112,9 +112,11 @@ In VS Code, open the terminal dropdown and select **"WSL: Ubuntu"**.
 
 > Press Ctrl+Shift+P → type "WSL: New Window" → select "WSL: Ubuntu"
 
-Create a folder inside your Linux home directory:
+In the WSL terminal that opens at the bottom, run:
 
 ```bash
+# Create a projects folder if it doesn't exist
+
 mkdir -p ~/projects
 cd ~/projects
 ```
@@ -161,7 +163,7 @@ README instructions (manual)
 - ✅ Installs Git hooks to block secrets from being committed
 - ✅ Prepares the local workspace for secrets, Docker, and development
 
-You’ll still configure your own credentials and files —  
+You’ll still configure your own credentials and files —
 but the **leak-proof safety system is fully automated** and already active.
 
 3. Review the folder map in [`folder-structure.md`](./docs/folder-structure.md)
@@ -184,7 +186,7 @@ but the **leak-proof safety system is fully automated** and already active.
 
    _(If you're not sure what goes here, feel free to reach out, for now you can continue the steps without real keys.)_
 
-6. Set up your Python virtual environment (`.venv`)  
+6. Set up your Python virtual environment (`.venv`)
    → See [`venv-setup.md`](docs/venv-setup.md) for backend setup
 
 7. Navigate into the `frontend/` folder, run `npm install`, then return to your project root:
@@ -197,7 +199,7 @@ but the **leak-proof safety system is fully automated** and already active.
 
    _(Note: `package.json` is currently empty — this is just a scaffold.)_
 
-8. Start development with Docker, or run backend and frontend separately  
+8. Start development with Docker, or run backend and frontend separately
    _(This boilerplate includes setup only — you’ll add your own app logic.)_
 
 9. For detailed setup or questions, contact me [@goldielockz](https://www.instagram.com/goldielockz)
@@ -243,7 +245,7 @@ The `.env` file contains your project’s environment variables — sensitive in
 
 ---
 
-> 🔐 **Important:** This boilerplate includes a Git hook system that automatically blocks commits containing secrets like `.env`, `.env.local`, or `secrets.toml`.  
+> 🔐 **Important:** This boilerplate includes a Git hook system that automatically blocks commits containing secrets like `.env`, `.env.local`, or `secrets.toml`.
 > The hook is auto-installed by `activate-pre-commit`, which runs during setup via `setup-local-boilerplate.sh`.
 
 ---
