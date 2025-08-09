@@ -112,11 +112,6 @@ In VS Code, open the terminal dropdown and select **"WSL: Ubuntu"**.
 
 > Press Ctrl+Shift+P → type "WSL: New Window" → select "WSL: Ubuntu"
 
-In the WSL terminal that opens at the bottom, run:
-
-```bash
-# Create a projects folder if it doesn't exist
-```
 In the WSL terminal that opens in the VS Code pop up window run:
 
 ```bash
@@ -163,15 +158,15 @@ but the **leak-proof safety system is fully automated** and already active.
 
 3. Review the folder map in [`folder-structure.md`](./docs/folder-structure.md)
 
-4. Manually create any remaining files in the correct folder (particularly the hidden ones):
+4. Create hidden files:
 
-   ```
-   .vscode/launch.json              # eg. In the .vscode folder create a file named launch.json
-   frontend/.env.local
-   infra/docker/Dockerfile.backend  # eg. In docker folder nested in the infra folder create a file named launch.json
-   infra/docker/Dockerfile.frontend
-   .env
-   ```
+```bash
+touch .vscode/launch.json \
+      frontend/.env.local \
+      infra/docker/Dockerfile.backend \
+      infra/docker/Dockerfile.frontend
+```
+> Note: settings.json is pre configured in the vs.code folder so VS Code will automaticallly use the correct formatter and style rules from the start.
 
 5. Your `.env` file has been auto-created from `.env.example`.
 
@@ -181,18 +176,18 @@ but the **leak-proof safety system is fully automated** and already active.
 
    _(If you're not sure what goes here, feel free to reach out, for now you can continue the steps without real keys.)_
 
-6. Set up your Python virtual environment (`.venv`)
-   → See [`venv-setup.md`](docs/venv-setup.md) for backend setup
+6. Set up your Python virtual environment (`.venv`) and install python packages.
 
-7. Navigate into the `frontend/` folder, run `npm install`, then return to your project root:
 
-   ```bash
-   cd frontend
-   npm install
-   cd ..
-   ```
+7. Install FastAPI backend dependencies and run the backend.
 
-   _(Note: `package.json` is currently empty — this is just a scaffold.)_
+8. Replace the frontent folder with a Next.js app with src/ directory enabled.
+
+```bash
+cd ~/projects/saas-starter
+rm -rf frontend
+```
+Once configured reset and run frontend!
 
 8. Start development with Docker, or run backend and frontend separately
    _(This boilerplate includes setup only — you’ll add your own app logic.)_
