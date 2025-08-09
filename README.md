@@ -164,8 +164,6 @@ touch .vscode/launch.json \
       infra/docker/Dockerfile.backend \
       infra/docker/Dockerfile.frontend
 ```
-> Note: settings.json is pre configured in the vs.code folder so VS Code will automaticallly use the correct formatter and style rules from the start.
-
 5. Your `.env` file has been auto-created from `.env.example`.
 
    Fill in your real credentials before running the app.
@@ -174,8 +172,9 @@ touch .vscode/launch.json \
 
    _(If you're not sure what goes here, feel free to reach out, for now you can continue the steps without real keys.)_
 
-6. Set up your Python virtual environment (`.venv`) and install python packages.
+> Side Note: settings.json is pre configured in the vs.code folder so VS Code will automaticallly use the correct formatter and style rules from the start.
 
+6. Set up your Python virtual environment (`.venv`) and install python packages.
 
 7. Install FastAPI backend dependencies and run the backend.
 
