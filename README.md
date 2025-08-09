@@ -97,8 +97,6 @@ See [`prerequisites.md`](docs/prerequisites.md) for install instructions:
 
 ## 🛠️ Getting Started Locally
 
-> To start we will use the VS Code default PowerShell Terminal to create your folder for projects.
-
 > 🛠 **Note:** All setup is done from inside the **Ubuntu (WSL)** terminal on Windows, or the default terminal on macOS/Linux.
 > This ensures Python, npm, and Git hooks are installed in a Linux environment — matching deployment.
 
