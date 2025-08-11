@@ -172,7 +172,7 @@ touch .vscode/launch.json \
 
    _(If you're not sure what goes here, feel free to reach out, for now you can continue the steps without real keys.)_
 
-> Side Note: settings.json is pre configured in the vs.code folder so VS Code will automaticallly use the correct formatter and style rules from the start.
+> Side Note: settings.json is pre configured in the .vscode folder so VS Code will automatically use the correct formatter and style rules from the start.
 
 6. Set up your Python virtual environment (`.venv`) and install python packages.
 
@@ -222,13 +222,18 @@ See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdow
 
 ## 🔐 Why `.env` Is In The Root Folder
 
-The `.env` file contains your project’s environment variables — sensitive information like API keys and secret tokens. Keeping it in the root folder:
+The .env file contains your project’s environment variables — sensitive information like API keys and secret tokens.
+In this boilerplate, environment variables are managed securely with Doppler and are only decrypted at runtime from an encrypted .env.enc file when needed.
 
-- Makes it easy to locate and manage all environment variables in one place
-- Ensures backend and frontend parts can access variables as needed
-- Allows tools like Docker, FastAPI, and frontend frameworks to load variables automatically
+Keeping the .env file in the root:
 
-`.env.example` is a template that lists all required environment variables with placeholder values for safe version control. During setup, it is automatically copied to `.env`, where you can replace the placeholders with your actual secrets. The `.env` file (and other sensitive files) is excluded from version control via `.gitignore` to prevent accidental leaks.
+* Makes it easy for backend and frontend to load variables automatically
+
+* Allows tools like Docker, FastAPI, and frontend frameworks to pick them up without extra config
+
+`.env.example` is a safe template listing all required environment variables with placeholders. This ensures you can set up your local environment without exposing secrets.
+
+During setup, `.env.example` is automatically copied to .env, where you can replace the placeholders with your actual secrets. The `.env` file (and other sensitive files) is excluded from version control via `.gitignore` to prevent accidental leaks.
 
 ---
 
