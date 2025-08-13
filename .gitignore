@@ -91,6 +91,7 @@ dmypy.json
 # === NOTEBOOKS / IDE ===
 .ipynb_checkpoints/
 .vscode/*
+!.vscode/extensions.json
 !.vscode/settings.json
 .spyderproject/
 .spyproject/

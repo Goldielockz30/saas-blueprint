@@ -1,15 +1,17 @@
 repos:
+  # General hygiene hooks
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v5.0.0
     hooks:
       - id: check-added-large-files
       - id: detect-private-key
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
 
-  - repo: local
-    hooks:
-      - id: block-secrets
-        name: Secrets Commit Blocker
-        entry: bash scripts/pre-commit-git-hook/pre-commit-git-hook.sh
+      # Always run here-doc automation (no env var needed)
+      - id: heredocs
+        name: Generate & apply here-docs
+        entry: bash -c "scripts/generate-heredocs.sh && scripts/apply-heredocs.sh --yes"
         language: system
-        always_run: true
         pass_filenames: false
+        stages: [commit, push]
