@@ -4,7 +4,7 @@ This script helps you create a clean, new local project using the `saas-blueprin
 
 ---
 
-- Copies the full boilerplate repo into a new folder (you choose the name)
+- Copies the full SaaS Blueprint repo into a new folder (you choose the name)
 - Removes the Git history so you're not tied to the original repo
 - Initializes a fresh Git project
 - Copies `.env.example` to `.env` for quick configuration
