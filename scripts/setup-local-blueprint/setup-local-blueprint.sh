@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
 # --------------------------------------------
-# Setup Script: Local SaaS Boilerplate Starter
+# Setup Script: Local SaaS Blueprint Starter
 # For use *after cloning* the repo
 # --------------------------------------------
 
-echo "🔧 SaaS Boilerplate Setup Started"
+echo "🔧 SaaS Blueprint Setup Started"
 
 # Get the repo root
 REPO_ROOT="$(git rev-parse --show-toplevel)"
@@ -14,7 +14,7 @@ cd "$REPO_ROOT" || exit 1
 echo "🌱 Initializing new Git repo..."
 git init
 git add .
-git commit -m "Initial commit from SaaS boilerplate"
+git commit -m "Initial commit from SaaS Blueprint"
 
 # Create .env from .env.example
 if [[ -f ".env.example" ]]; then
