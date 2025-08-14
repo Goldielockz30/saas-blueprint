@@ -17,7 +17,7 @@ This script helps you create a clean, new local project using the `saas-blueprin
 This script is located at:
 
 ```
-scripts/setup-local-boilerplate/setup-local-boilerplate.sh
+scripts/setup-local-blueprint/setup-local-blueprint.sh
 ```
 
 ---
