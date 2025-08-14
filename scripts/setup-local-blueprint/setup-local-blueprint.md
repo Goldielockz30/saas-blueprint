@@ -1,6 +1,6 @@
 # 🚀 Setup: Create Your Own Local SaaS Project
 
-This script helps you create a clean, new local project using the `SaaS-boilerplate` structure — perfect for solo devs, small teams, or mentoring sessions.
+This script helps you create a clean, new local project using the `saas-blueprint` structure — perfect for solo devs, small teams, or mentoring sessions.
 
 ---
 
@@ -43,18 +43,18 @@ To check where you are:
 pwd
 ```
 
-Clone my SaaS-boilerplate and keep it as a local-boilerplate for future use or reference.
+Clone my SaaS blueprint and keep it as a local-blueprint for future use or reference.
 
 ```bash
-git clone https://github.com/Goldielockz30/saas-boilerplate.git starter-template            # Edit the name eg. loacl-boilerplate
-cd starter-template
+git clone https://github.com/Goldielockz30/saas-blueprint.git saas-template            # Edit the name eg. saas-template
+cd saas-template
 ```
 
 Use a **bash** terminal to run the following setup script!
 
 ```bash
-cd ~/projects/starter-template
-bash scripts/setup-local-boilerplate/setup-local-boilerplate.sh
+cd ~/projects/saas-template
+bash scripts/setup-local-blueprint/setup-local-blueprint.sh
 ```
 
 ## ✅ Result
@@ -77,5 +77,5 @@ This new folder will be fully detached from the original GitHub repo — ready t
 
 ## 🙋 Need Help?
 
-I offer hands-on guidance and done-for-you setup services.  
+I offer hands-on guidance and done-for-you setup services.
 DM me on Instagram [@goldielockz](https://instagram.com/goldielockz) to launch faster and safer.

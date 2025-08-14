@@ -114,10 +114,10 @@ In VS Code, open the terminal dropdown and select **"WSL: Ubuntu"**.
 In the WSL terminal that opens in the VS Code pop up window run:
 
 ```bash
-mkdir -p ~/projects   # Create a projects folder if it doesn't exist
+mkdir -p ~/projects   # Create a projects folder in the home dir if it doesn't exist
 cd ~/projects
-git clone https://github.com/Goldielockz30/saas-boilerplate.git saas-starter
-cd saas-starter
+git clone https://github.com/Goldielockz30/saas-blueprint.git blueprint
+cd blueprint
 code .
 ```
 A new VS Code window will open showing your saas-starter folder on the left — this is your main project workspace.
@@ -126,11 +126,11 @@ Close all other VS Code windows so you don’t edit the wrong folder by mistake.
 2. Then run the setup script:
 
 ```bash
-cd ~/projects/saas-starter
+cd ~/projects/blueprint
 bash scripts/setup.sh
 ```
 
-💡 Tip: Your terminal location matters. If you’ve opened a new terminal window and it’s not in the project folder, run `pwd` to check your path or manually navigate back with `cd ~/projects/saas-starter`
+💡 Tip: Your terminal location matters. If you’ve opened a new terminal window and it’s not in the project folder, run `pwd` to check your path or manually navigate back with `cd ~/projects/blueprint`
 
 ## 🪄 What Happens After You Clone
 
@@ -192,7 +192,7 @@ See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdow
 
 
 > 🔐 **Important:** This boilerplate includes a Git hook system that automatically blocks commits containing secrets like `.env`, `.env.local`, or `secrets.toml`.
-> The hook is auto-installed by `activate-pre-commit`, which runs during setup via `setup-local-boilerplate.sh`.
+> The hook is auto-installed by `activate-pre-commit`, which runs during setup via `setup-local-blueprint.sh`.
 > I never push `.env` to git, all keys are stored using doppler secrets management with `env.enc` as the local fallback.
 
 ---

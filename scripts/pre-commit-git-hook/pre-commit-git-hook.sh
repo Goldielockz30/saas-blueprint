@@ -4,6 +4,7 @@
 
 sensitive_files=(
   ".env"
+  "backend/secrets.toml"
   "frontend/.env.local"
   ".vscode/launch.json"
   "infra/docker/Dockerfile.backend"

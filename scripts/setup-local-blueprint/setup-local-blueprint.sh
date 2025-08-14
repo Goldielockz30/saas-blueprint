@@ -10,11 +10,7 @@ echo "🔧 SaaS Boilerplate Setup Started"
 REPO_ROOT="$(git rev-parse --show-toplevel)"
 cd "$REPO_ROOT" || exit 1
 
-# Clean up Git history
-echo "🧼 Removing Git history..."
-rm -rf .git
-
-# Reinitialize Git
+# Initialize Git
 echo "🌱 Initializing new Git repo..."
 git init
 git add .

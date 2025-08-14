@@ -23,7 +23,6 @@ source .venv/bin/activate
 python -m pip install --upgrade pip
 
 # 5) Trigger your main setup script
-ENTRY="./setup-local-boilerplate/setup-local-boilerplate.sh"
+ENTRY="./setup-local-blueprint/setup-local-blueprint.sh"
 chmod +x "$ENTRY"
 exec "$ENTRY"
-
