@@ -84,7 +84,7 @@ Join my **early access list** to secure priority onboarding and discounts:
 
 ---
 
-## 🛠️ Getting Started Locally
+## 🛠️ For Developers Getting Started Locally
 
 See [`prerequisites.md`](docs/prerequisites.md) for install instructions:
 
@@ -194,7 +194,7 @@ See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdow
 
 > 🔐 **Important:** This boilerplate includes a Git hook system that automatically blocks commits containing secrets like `.env`, `.env.local`, or `secrets.toml`.
 > The hook is auto-installed by `activate-pre-commit`, which runs during setup via `setup-local-boilerplate.sh`.
-> I never push `.env` to git, all keys are stored using doppler secrets management using `env.enc` as the local fallback.
+> I never push `.env` to git, all keys are stored using doppler secrets management with `env.enc` as the local fallback.
 
 ---
 
