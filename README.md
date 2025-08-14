@@ -11,49 +11,30 @@
 
 This **SaaS-Boilerplate** is a clean, minimal, developer-ready starter kit designed to help you launch full-stack SaaS applications quickly and confidently.
 
-It combines:
+---
 
-- **FastAPI backend** with modular, secure API routes
-- **Next.js frontend** with React and TypeScript, ready for modern UI development
-- **Dockerized infrastructure** for local dev and production parity
-- **Pre-configured GitHub Actions workflows** (disabled by default)
-- **Essential dev tools** like pre-commit hooks and environment variable management
-- **VS Code configuration** for seamless Python interpreter and debugging support
+## 💥 Problems I Solve
+- 🔒 **Security from Day 1** — No patchwork fixes later, your app is locked in from the start.
+- 📈 **We can scale with confidence** — Architecture designed for growth without bottlenecks.
+- ⏳ **From 3–6 months to 1 month** — My builds are efficient, not bloated.
+- 🛠 **Tired of starting from scratch?** — I use standardised automation to stack your apps. If you’re happy with the first, we keep building.
+- 💰 **Can’t afford a $50–100k dev team?** — I deliver for £5–10k on a 3-month retainer.
 
 ---
 
-## 🔐 Why This Boilerplate Is Valuable
-
-- **Saves Hours of Setup Time:**
-  No need to reinvent the wheel — get a solid folder structure and working environment right away.
-
-- **Flexible and Adaptable:**
-  Use it as a base for any SaaS product — AI tools, analytics dashboards, subscription marketplaces, or custom internal apps.
-
-- **Built for Real Development:**
-  Includes critical tooling, like environment checking scripts and secrets management templates to prevent common security mistakes.
-
-- **Easy to Customize and Extend:**
-  Clean code organization helps you scale your app without messy technical debt.
-
-- **Great for Learning and Collaboration:**
-  Perfect for solo developers, small teams, or mentoring sessions — ideal for learning real-world SaaS development.
+## 🔑 What You Get
+- 🔒 **Secure from Day 1** — Built-in protection against common vulnerabilities.
+- ⚡ **Fast Launch** — Production-ready setup without months of delay.
+- 🧩 **Modular Design** — Features can be added without breaking existing systems.
+- 📊 **Real Analytics** — Track what matters from day one.
+- 🌍 **Remote-Ready** — Perfect for distributed teams.
 
 ---
 
-## 👥 Who Is This For?
-
-- **Developers and Freelancers:**
-  Need a fast, reliable starting point for client projects or side hustles.
-
-- **Small Dev Teams:**
-  Want a shared foundation that enforces best practices and consistency.
-
-- **Students and Learners:**
-  Looking to understand how to structure and build modern SaaS apps.
-
-- **Tech Mentors and Educators:**
-  Need a practical scaffold to teach backend/frontend integration, DevOps basics, and deployment prep.
+## 🛠 How I Work
+1. **Discovery & Planning** — Understand your vision, define scope, and lock requirements.
+2. **Build & Secure** — Deliver a working, tested product in record time.
+3. **Ongoing Support** — Optional retainer to keep improving and scaling.
 
 ---
 
@@ -71,16 +52,39 @@ This boilerplate is versatile and can serve as the foundation for building and s
 
 ---
 
-## 🔧 💻 Minimum Recommended PC Specs for Dev Use
+## 📂 Portfolio Teaser
+**Assist SMMM — Mizz Media Pro**
+Automates workflows for social media managers so they can create, schedule, and track content in one place.
+> “Made posting so much easier, and the analytics saved me hours every week.” — Katherine
 
-| Component   | Recommended Minimum                           | Notes                                                                         |
-| ----------- | --------------------------------------------- | ----------------------------------------------------------------------------- |
-| **CPU**     | AMD Ryzen 7 / Intel i7 (12th gen or newer)    | Multithreading for Docker + VS Code                                           |
-| **RAM**     | 32GB DDR4                                     | 16GB is okay for frontend-only work, but 32GB is better for Docker + training |
-| **Storage** | 1TB NVMe SSD                                  | Fast disk needed for images, builds, and training datasets                    |
-| **OS**      | Windows 11 Pro + WSL2 or Linux (Ubuntu 22.04) | Full compatibility with Docker and CLI tools                                  |
-| **Display** | 1080p dual-monitor setup                      | Makes dev, testing, and VS Code workflows easier                              |
-| **Cooling** | Good airflow or liquid cooling                | If running containers, VMs, or models for long periods                        |
+**Dash Bot**
+Automates RSI-based trading strategies so traders can act on market signals instantly.
+> “Exactly what I needed to track my positions without stress.” — Marco
+
+**Tribute Me — AI Baddie Creator**
+Generates AI-driven roleplay and custom content for creators to engage their audience and increase revenue.
+> “The AI roleplay features are next-level. My fans can’t get enough.” — Xanita
+
+**GoldieLockz — Cyber Security SaaS**
+Monitors and secures small business systems to prevent costly breaches.
+> “I finally feel in control of my business security without hiring a full IT team.” — Benji
+
+**Estimators Measuring App — Construction**
+Speeds up on-site measurements and estimates so construction teams can plan faster and avoid delays.
+> “Cut our project planning time in half. No more back-and-forth on site.” — Dave
+
+---
+
+## 📩 Early Access
+Join my **early access list** to secure priority onboarding and discounts:
+[**Sign Up Here**](https://subscribepage.io/mizzmediapro)
+
+*I only take 2 new clients at a time to ensure focus and precision.*
+
+
+---
+
+## 🛠️ Getting Started Locally
 
 See [`prerequisites.md`](docs/prerequisites.md) for install instructions:
 
@@ -95,14 +99,12 @@ See [`prerequisites.md`](docs/prerequisites.md) for install instructions:
 
 ---
 
-## 🛠️ Getting Started Locally
-
 > 🛠 **Note:** All setup is done from inside the **Ubuntu (WSL)** terminal on Windows, or the default terminal on macOS/Linux.
 > This ensures Python, npm, and Git hooks are installed in a Linux environment — matching deployment.
 
 ## ⚙️ Quickstart
 
-### 1. Open a WSL Terminal
+   1. Open a WSL Terminal
 
 In VS Code, open the terminal dropdown and select **"WSL: Ubuntu"**.
 
@@ -139,9 +141,9 @@ Cloning this repo using the instructions in my README does more than just downlo
 
 ```text
 README instructions (manual)
-└──▶ setup-local-boilerplate.sh
-     └──▶ activate-pre-commit.sh
-           └──▶ pre-commit-git-hook.sh
+└──▶📝setup-local-boilerplate.sh
+     └──▶⚡activate-pre-commit.sh
+           └──▶🔒pre-commit-git-hook.sh
 ```
 
 ### What this does:
@@ -154,91 +156,45 @@ README instructions (manual)
 You’ll still configure your own credentials and files —
 but the **leak-proof safety system is fully automated** and already active.
 
-3. Review the folder map in [`folder-structure.md`](./docs/folder-structure.md)
-
-4. Create hidden files:
-
+3. **Install Backend**
 ```bash
-touch .vscode/launch.json \
-      frontend/.env.local \
-      infra/docker/Dockerfile.backend \
-      infra/docker/Dockerfile.frontend
+cd backend
+pip install -r requirements.txt
+cd ..
 ```
-5. Your `.env` file has been auto-created from `.env.example`.
-
-   Fill in your real credentials before running the app.
-
-   ⚠️ These values are required for the app to start and connect to its services correctly.
-
-   _(If you're not sure what goes here, feel free to reach out, for now you can continue the steps without real keys.)_
-
-> Side Note: settings.json is pre configured in the .vscode folder so VS Code will automatically use the correct formatter and style rules from the start.
-
-6. Set up your Python virtual environment (`.venv`) and install python packages.
-
-7. Install FastAPI backend dependencies and run the backend.
-
-8. Replace the frontent folder with a Next.js app with src/ directory enabled.
-
+4. **Install Frontend**
 ```bash
-cd ~/projects/saas-starter
-rm -rf frontend
+cd frontend
+npm install
+cd ..
 ```
-Once configured reset and run frontend!
+5. **Run Services**
+```bash
+# Backend
+cd backend
+uvicorn src.main:app --reload
 
-8. Start development with Docker, or run backend and frontend separately
-   _(This boilerplate includes setup only — you’ll add your own app logic.)_
+# Frontend
+cd frontend
+npm run dev
+```
 
-9. For detailed setup or questions, contact me [@goldielockz](https://www.instagram.com/goldielockz)
+🪄 ***Want to skip manual setup?** My private automation scripts condense this into a single command, available in my premium starter kit.*
+
 
 ---
 
 ## 📂 Project Structure
 
-```
-project-root/
-├── .github/                   # GitHub Actions workflows (CI/CD)
-├── .vscode/                   # VS Code workspace settings and extensions
-├── backend/                   # FastAPI app (API, routes, services, models)
-├── docs/                      # DevSecOps docs, setup guides, architecture diagrams
-├── frontend/                  # Next.js app (UI, components, pages)
-├── infra/                     # Dockerfiles, deployment configs
-│   ├── docker/                # Dockerfile.backend, Dockerfile.frontend
-│   └── deploy/                # GHCR, Railway, CI/CD scripts
-├── scripts/                   # CLI tools, setup scripts, automation
-├── tests/                     # Project-wide and backend test suites
-├── .dockerignore              # Docker ignore rules (controls build context)
-├── .env.example               # Template for environment variables
-├── .gitignore                 # Git ignore rules (prevents committing secrets, etc.)
-├── .pre-commit-config.yaml    # Pre-commit hook setup (includes secret leak blocking + format/lint rules)
-├── LICENSE                    # License file (MIT, Apache, or custom)
-├── Makefile                   # CLI shortcuts for build, test, format, etc.
-└── README.md                  # Project overview and setup instructions
-```
 
 See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdown of the repo layout.
 
 ---
 
-## 🔐 Why `.env` Is In The Root Folder
-
-The .env file contains your project’s environment variables — sensitive information like API keys and secret tokens.
-In this boilerplate, environment variables are managed securely with Doppler and are only decrypted at runtime from an encrypted .env.enc file when needed.
-
-Keeping the .env file in the root:
-
-* Makes it easy for backend and frontend to load variables automatically
-
-* Allows tools like Docker, FastAPI, and frontend frameworks to pick them up without extra config
-
-`.env.example` is a safe template listing all required environment variables with placeholders. This ensures you can set up your local environment without exposing secrets.
-
-During setup, `.env.example` is automatically copied to .env, where you can replace the placeholders with your actual secrets. The `.env` file (and other sensitive files) is excluded from version control via `.gitignore` to prevent accidental leaks.
-
----
 
 > 🔐 **Important:** This boilerplate includes a Git hook system that automatically blocks commits containing secrets like `.env`, `.env.local`, or `secrets.toml`.
 > The hook is auto-installed by `activate-pre-commit`, which runs during setup via `setup-local-boilerplate.sh`.
+> I never push `.env` to git, all keys are stored using doppler secrets management using `env.enc` as the local fallback.
 
 ---
 
