@@ -14,15 +14,11 @@ This **SaaS-Boilerplate** is a clean, minimal, developer-ready starter kit desig
 ---
 
 ## 💥 Problems I Solve
-🔒 **Built-in security** — No messy fixes later. Your app starts off safe and stays that way.
-
-📈 **Ready to grow** — The architecture is designed to scale without hitting performance roadblocks.
-
-⏳ **Faster turnaround** — I cut typical build times from 3–6 months down to about 1 month with 1–2 months of ongoing improvements and support.
-
-🛠 **No more starting from scratch** — I use a proven automation system to build your app quickly, and if you want more, we can keep adding features.
-
-💰 **High-end results without a huge team** — I deliver for £5–10k over a 3-month retainer, not £50–100k like big dev agencies.
+* 🔒 **Built-in security** — No messy fixes later. Your app starts off safe and stays that way.
+* 📈 **Ready to grow** — The architecture is designed to scale without hitting performance roadblocks.
+* ⏳ **Faster turnaround** — I cut typical build times from 3–6 months down to about 1 month with 1–2 months of ongoing improvements and support.
+* 🛠 **No more starting from scratch** — I use a proven automation system to build your app quickly, and if you want more, we can keep adding features.
+* 💰 **High-end results without a huge team** — I deliver for £5–10k over a 3-month retainer, not £50–100k like big dev agencies.
 
 ---
 
