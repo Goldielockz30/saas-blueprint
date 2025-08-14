@@ -55,7 +55,7 @@ This boilerplate is versatile and can serve as the foundation for building and s
 ## 📂 Portfolio Teaser
 **Assist SMMM — Mizz Media Pro**
 Gives Social Media Managers back hours each week by automating content creation, scheduling, copywriting, and tracking.
-> “Made posting so much easier, and the analytics saved me hours every week.” — Jasmin
+> “Made posting so much easier, and the analytics saved me hours every week.” — Jasmine
 
 **Dash Bot — Traders**
 Helps traders capture market opportunities by automating buy and sell signals using the Relative Strength Index (RSI) to maximize gains and minimize missed trades.
