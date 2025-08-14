@@ -81,7 +81,6 @@ Join my **early access list** to secure priority onboarding and discounts:
 
 *I only take 2 new clients at a time to ensure focus and precision.*
 
-
 ---
 
 ## 🛠️ For Developers Getting Started Locally
