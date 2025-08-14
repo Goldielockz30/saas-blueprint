@@ -54,22 +54,22 @@ This boilerplate is versatile and can serve as the foundation for building and s
 
 ## 📂 Portfolio Teaser
 **Assist SMMM — Mizz Media Pro**
-Automates workflows for social media managers so they can create, schedule, and track content in one place.
+Gives Social Media Managers back hours each week by automating content creation, scheduling, copywriting, and tracking.
 > “Made posting so much easier, and the analytics saved me hours every week.” — Katherine
 
-**Dash Bot**
-Automates RSI-based trading strategies so traders can act on market signals instantly.
+**Dash Bot — Traders**
+Helps traders capture market opportunities by automating buy and sell signals using the Relative Strength Index (RSI) to maximize gains and minimize missed trades.
 > “Exactly what I needed to track my positions without stress.” — Marco
 
 **Tribute Me — AI Baddie Creator**
-Generates AI-driven roleplay and custom content for creators to engage their audience and increase revenue.
+Empowers creators to engage fans and boost earnings through AI-driven roleplay and fully customized content.
 > “The AI roleplay features are next-level. My fans can’t get enough.” — Xanita
 
 **GoldieLockz — Cyber Security SaaS**
-Monitors and secures small business systems to prevent costly breaches.
+Protects small businesses from costly breaches by continuously monitoring and securing their systems.
 > “I finally feel in control of my business security without hiring a full IT team.” — Benji
 
-**Estimators Measuring App — Construction**
+**OnSite — Construction**
 Speeds up on-site measurements and estimates so construction teams can plan faster and avoid delays.
 > “Cut our project planning time in half. No more back-and-forth on site.” — Dave
 
