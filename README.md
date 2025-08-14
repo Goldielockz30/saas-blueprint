@@ -65,7 +65,7 @@ Helps traders capture market opportunities by automating buy and sell signals us
 Empowers creators to engage fans and boost earnings through AI-driven roleplay and fully customized content.
 > “The AI roleplay features are next-level. My fans can’t get enough.” — Xanita
 
-**GoldieLockz — Cyber Security SaaS**
+**GoldieLockz — Cyber Security**
 Protects small businesses from costly breaches by continuously monitoring and securing their systems.
 > “I finally feel in control of my business security without hiring a full IT team.” — Benji
 
@@ -140,7 +140,7 @@ Cloning this repo using the instructions in my README does more than just downlo
 
 ```text
 README instructions (manual)
-└──▶📝setup-local-boilerplate.sh
+└──▶📝setup-local-blueprint.sh
      └──▶⚡activate-pre-commit.sh
            └──▶🔒pre-commit-git-hook.sh
 ```
