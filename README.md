@@ -38,9 +38,9 @@ This **SaaS-Blueprint** is a clean, minimal, developer-ready starter kit designe
 
 ---
 
-## 🧩 Niches You Can Build With This Boilerplate
+## 🧩 Niches You Can Build With This Blueprint
 
-This boilerplate is versatile and can serve as the foundation for building and securing apps in niches such as:
+This blueprint is versatile and can serve as the foundation for building and securing apps in niches such as:
 
 - 🤖 AI-powered content creation and automation tools
 - 📱 Social media management and analytics dashboards
@@ -191,7 +191,7 @@ See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdow
 ---
 
 
-> 🔐 **Important:** This boilerplate includes a Git hook system that automatically blocks commits containing secrets like `.env`, `.env.local`, or `secrets.toml`.
+> 🔐 **Important:** This blueprint includes a Git hook system that automatically blocks commits containing secrets like `.env`, `.env.local`, or `secrets.toml`.
 > The hook is auto-installed by `activate-pre-commit`, which runs during setup via `setup-local-blueprint.sh`.
 > I never push `.env` to git, all keys are stored using doppler secrets management with `env.enc` as the local fallback.
 
