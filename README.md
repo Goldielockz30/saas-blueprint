@@ -57,6 +57,9 @@ This blueprint is versatile and can serve as the foundation for building and sec
 Gives Social Media Managers back hours each week by automating content creation, scheduling, copywriting, and tracking.
 > “Made posting so much easier, and the analytics saved me hours every week.” — Jasmine
 
+[**Live Demo**](https://caption-and-hashtag-generator.streamlit.app/)
+
+
 **Dash Bot — Traders**
 Helps traders capture market opportunities by automating buy and sell signals using the Relative Strength Index (RSI) to maximize gains and minimize missed trades.
 > “Exactly what I needed to track my positions without stress.” — Marco
@@ -73,7 +76,7 @@ Protects small businesses from costly breaches by continuously monitoring and se
 Speeds up on-site measurements and estimates so construction teams can plan faster and avoid delays.
 > “Cut our project planning time in half. No more back-and-forth on site.” — Dave
 
----
+### *Disclaimer: Demos are for showcase purpose only and do not feature actual client products.*
 
 ## 📩 Early Access
 Join my **early access list** to secure priority onboarding and discounts:
