@@ -1,4 +1,4 @@
-# SaaS-Boilerplate
+# SaaS-Blueprint
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Pre-commit enabled](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)
@@ -9,7 +9,7 @@
 
 ## 🏃🏾‍♀️⚡ Fast-Track Your SaaS Development
 
-This **SaaS-Boilerplate** is a clean, minimal, developer-ready starter kit designed to help you launch full-stack SaaS applications quickly and confidently.
+This **SaaS-Blueprint** is a clean, minimal, developer-ready starter kit designed to help you launch full-stack SaaS applications quickly and confidently.
 
 ---
 
