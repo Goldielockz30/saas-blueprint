@@ -107,7 +107,7 @@ profile_default/
 *.pid.lock
 docker-compose.override.yml
 docker-compose.*.yml
-Dockerfile.*
+!Dockerfile.*
 *.tar
 
 # === MAKEFILE OUTPUT (if any) ===

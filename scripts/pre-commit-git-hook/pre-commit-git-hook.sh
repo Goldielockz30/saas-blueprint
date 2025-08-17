@@ -8,8 +8,6 @@ sensitive_files=(
   "backend/secrets.toml"
   "frontend/.env.local"
   ".vscode/launch.json"
-  "infra/docker/Dockerfile.backend"
-  "infra/docker/Dockerfile.frontend"
 )
 
 staged_files=$(git diff --cached --name-only)
