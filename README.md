@@ -76,7 +76,7 @@ Protects small businesses from costly breaches by continuously monitoring and se
 Speeds up on-site measurements and estimates so construction teams can plan faster and avoid delays.
 > “Cut our project planning time in half. No more back-and-forth on site.” — Dave
 
-### *Disclaimer: Demos are for showcase purpose only and do not feature actual client products.*
+### *Disclaimer: Demos are for showcase purposes only and do not feature actual client products.*
 
 ## 📩 Early Access
 Join my **early access list** to secure priority onboarding and discounts:
@@ -123,7 +123,7 @@ git clone https://github.com/Goldielockz30/saas-blueprint.git blueprint
 cd blueprint
 code .
 ```
-A new VS Code window will open showing your saas-starter folder on the left — this is your main project workspace.
+A new VS Code window will open showing your blueprint folder on the left — this is your main project workspace.
 Close all other VS Code windows so you don’t edit the wrong folder by mistake.
 
 2. Then run the setup script:
