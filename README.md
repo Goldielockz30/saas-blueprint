@@ -55,7 +55,7 @@ This blueprint is versatile and can serve as the foundation for building and sec
 ## 📂 Portfolio Teaser
 **Assist SMMM — Mizz Media Pro**
 Gives Social Media Managers back hours each week by automating content creation, scheduling, copywriting, and tracking.
-> “Made posting so much easier, and the analytics saved me hours every week.” — Jasmine
+> “Assist SMMM took the stress out of managing multiple clients. Instead of spending hours writing captions and scheduling posts I can now plan a full week of content in minutes. The built in analytics show me what’s working so I don’t waste time juggling multiple dashboards.” — Jasmine, Social Media Manager” — Jasmine
 
 [**Live Demo**](https://caption-and-hashtag-generator.streamlit.app/)
 
@@ -150,7 +150,7 @@ README instructions (manual)
 
 ### What this does:
 
-- ✅ Wipes old Git history and sets up a fresh repo just for you
+- ✅ Sets up a fresh repo just for you
 - ✅ Creates your `.env` file automatically from `.env.example`
 - ✅ Installs Git hooks to block secrets from being committed
 - ✅ Prepares the local workspace for secrets, Docker, and development
