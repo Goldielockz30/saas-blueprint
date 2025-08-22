@@ -53,26 +53,26 @@ This blueprint is versatile and can serve as the foundation for building and sec
 ---
 
 ## 📂 Portfolio Teaser
-**Assist SMMM — Mizz Media Pro**
+**Assist SMMM — (for SMMM)**
 Gives Social Media Managers back hours each week by automating content creation, scheduling, copywriting, and tracking.
 > “Assist SMMM took the stress out of managing multiple clients. Instead of spending hours writing captions and scheduling posts I can now plan a full week of content in minutes. The built in analytics show me what’s working so I don’t waste time juggling dashboards.” — Jasmine
 
 [**Live Demo**](https://caption-and-hashtag-generator.streamlit.app/)
 
 
-**Dash Bot — Traders**
+**Dash Bot — (for trading)**
 Helps traders capture market opportunities by automating buy and sell signals using the Relative Strength Index (RSI) to maximize gains and minimize missed trades.
 > “Exactly what I needed to track my positions without stress.” — Marco
 
-**Tribute Me — AI Baddie Creator**
+**Tribute Me — (for AI Twin)**
 Empowers creators to engage fans and boost earnings through AI-driven roleplay and fully customized content.
 > “The AI roleplay features are next-level. My fans can’t get enough.” — Xanita
 
-**GoldieLockz — Cyber Security**
+**GoldieLockz — (for Cyber Security)**
 Protects small businesses from costly breaches by continuously monitoring and securing their systems.
 > “I finally feel in control of my business security without hiring a full IT team.” — Benji
 
-**OnSite — Construction**
+**OnSite —(for Construction)**
 Speeds up on-site measurements and estimates so construction teams can plan faster and avoid delays.
 > “Cut our project planning time in half. No more back-and-forth on site.” — Dave
 
@@ -80,7 +80,7 @@ Speeds up on-site measurements and estimates so construction teams can plan fast
 
 ## 📩 Early Access
 Join my **early access list** to secure priority onboarding and discounts:
-[**Sign Up Here**](https://subscribepage.io/mizzmediapro) 
+[**Sign Up Here**](https://subscribepage.io/mizzmediapro)
 
 *I only take 2 new clients at a time to ensure focus and precision.*
 
