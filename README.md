@@ -55,7 +55,7 @@ This blueprint is versatile and can serve as the foundation for building and sec
 ## 📂 Portfolio Teaser
 **Assist SMMM — (for SMMM)**
 Gives Social Media Managers back hours each week by automating content creation, scheduling, copywriting, and tracking.
-> “Assist SMMM took the stress out of managing multiple clients. Instead of spending hours writing captions and scheduling posts I can now plan a full week of content in minutes. The built in analytics show me what’s working so I don’t waste time juggling dashboards.” — Jasmine
+> “Instead of spending hours writing captions and scheduling posts I can now plan a full week of content in minutes. ” — Jasmine
 
 [**Live Demo**](https://caption-and-hashtag-generator.streamlit.app/)
 
