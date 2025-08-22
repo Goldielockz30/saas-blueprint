@@ -27,7 +27,8 @@
 │   │   ├── 📁 middleware/                 # 🔒 Request/response logic
 │   │   │   └── 📄 security.py             # 🔐 Auth, headers, etc.
 │   │   ├── 📄 main.py                     # 🚀 FastAPI app entry point
-│   │   └── 📄 logging_config.py           # 📋 Logging setup (optional)
+│   │   ├── 📄 logging_config.py           # 📋 Logging setup (optional)
+│   │   └── 📄 requirements.txt            # 📦 Python dependencies
 │   └── 🐳 Dockerfile                      # 💣 Backend Dockerfile
 
 📁 docs/
@@ -103,7 +104,7 @@
 📄 LICENSE                           # 📜 Legal terms for using, sharing, or modifying your code
 📄 Makefile                          # 🚀 Dev automation
 📄 README.md                         # 📘 Project overview
-📄 requirements.txt                  # 📦 Python dependencies
+
 ```
 
 ---
