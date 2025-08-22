@@ -1,5 +1,7 @@
 # SaaS-Blueprint
 
+Want updates, premium features & private dev tips? Join my list [**Sign Up Here**](https://subscribepage.io/mizzmediapro).
+
 ![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Pre-commit enabled](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit)
 ![Dockerized](https://img.shields.io/badge/docker-ready-blue?logo=docker)
@@ -205,6 +207,7 @@ See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdow
 Tech Founder & Secure Systems Architect | [Contact Me](https://www.linkedin.com/in/nana-e-a-johnson-282522a6/)
 
 ---
+
 
 
 
