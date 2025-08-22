@@ -80,7 +80,7 @@ Speeds up on-site measurements and estimates so construction teams can plan fast
 
 ## 📩 Early Access
 Join my **early access list** to secure priority onboarding and discounts:
-[**Sign Up Here**](https://www.linkedin.com/in/nana-e-a-johnson-282522a6/)
+[**Sign Up Here**](https://subscribepage.io/mizzmediapro) 
 
 *I only take 2 new clients at a time to ensure focus and precision.*
 
