@@ -4,13 +4,21 @@ Your first step toward building secure, scalable software — the right way. Thi
 
 ---
 
-## 🔧 Prerequisites
+⚙️ Prerequisites to use this SaaS Starter Blueprint:
 
-- VS Code (recommended)
-- Python 3.11.9
-- Node.js 18+
-- Docker + Docker Compose
-- Git + GitHub
+🖥 VS Code — with Python and Docker extensions recommended  
+🐍 Python 3.10+ — backend services run on FastAPI  
+⚛️ Node.js 18+ & npm — frontend built with Next.js  
+🔧 Git — for cloning and version control  
+🐙 GitHub account — to manage your repo  
+🪟 WSL2 (Windows) — run Linux commands inside Windows easily  
+
+🐳 Docker (Optional) — Best used through the CLI (lightweight and efficient).  
+   
+   - Use Docker CLI/Engine if you’re comfortable in terminal (lighter, faster).
+
+   - Use Docker Desktop if you prefer a GUI (heavier, easier for beginners).  
+   
 
 ---
 
@@ -87,6 +95,10 @@ npm -v             # Windows
 
 #### ✅ Step-by-step:
 
+> Use Docker CLI/Engine if you’re comfortable in terminal (lighter, faster).
+
+or ..
+
 1. Go to 👉 [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
 2. Click **"Download for Windows"**
 3. Run the `.exe` file
@@ -102,6 +114,35 @@ docker-compose -v  # Windows
 ```
 
 ✅ You should see Docker version numbers
+
+### 🔹 5. (Windows Only) Install WSL 2 (Windows Subsystem for Linux)
+
+WSL lets you run Linux commands (like `bash`) on Windows. Some developer tools (like pre-commit hooks, Docker scripts) may require it.
+
+#### ✅ Step-by-step:
+
+1. Open **PowerShell as Administrator** (right-click → “Run as Administrator”)
+2. Run this command:
+
+    wsl --install
+
+3. Restart your computer when prompted
+4. On first launch, it will ask you to create a **Linux username + password**
+5. Now you can open a Linux terminal by typing `wsl` in your start menu
+
+For use in VS Code:
+> Press Ctrl+Shift+P → type "WSL: New Window" → select "WSL: Ubuntu"
+
+> Optional: to open project in VS Code directly run:
+
+```bash
+code .
+```
+#### 🧶 Verify:
+
+    wsl --version
+
+✅ You should see something like `WSL version: 2.x.x
 
 ---
 
@@ -175,6 +216,10 @@ npm -v             # Mac
 
 #### ✅ Step-by-step:
 
+> Use Docker CLI/Engine if you’re comfortable in terminal (lighter, faster).
+
+or ..
+
 1. Go to 👉 [https://www.docker.com/products/docker-desktop/](https://www.docker.com/products/docker-desktop/)
 2. Download the right version for your Mac:
    - Apple Chip (M1/M2/M3) or Intel (check in  → About This Mac)
@@ -220,7 +265,7 @@ code --version
 
 ---
 
-## 🔙 Bonus: Set Up Git + GitHub (Windows & Mac)
+## 🔗 Git & GitHub Setup (Windows & Mac)
 
 ### 🔹 1. Install Git
 
@@ -264,6 +309,3 @@ git config --global user.email "your@email.com" # Replace with your email"
 
 ---
 
-### 👤 Created by Nana E. A. Johnson
-
-Tech Founder & Secure Systems Architect | [@Goldielockz](https://www.instagram.com/goldielockz)
