@@ -6,4 +6,15 @@ repos:
       - id: check-added-large-files
       - id: detect-private-key
       - id: end-of-file-fixer
+
       - id: trailing-whitespace
+
+
+ - repo: local
+    hooks:
+      - id: block-secrets
+        name: Secrets Commit Blocker
+        entry: bash scripts/pre-commit-git-hook/pre-commit-git-hook.sh
+        language: system
+        always_run: true
+        pass_filenames: false
