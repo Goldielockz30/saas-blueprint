@@ -20,7 +20,7 @@ This **SaaS-Blueprint** is a clean, minimal, developer-ready starter kit designe
 * 📈 **Ready to grow** — The architecture is designed to scale without hitting performance roadblocks.
 * ⏳ **Faster turnaround** — I cut typical build times from 3–6 months down to about 1 month with 1–2 months of ongoing improvements and support.
 * 🛠 **No more starting from scratch** —  I use my own blueprint snapshots to quickly customize and complete your project, and we can continue to build if you want more features.
-* 💰 **High-end results without a huge team** — I deliver for £5–10k over a 3-month retainer, not £50–100k like big dev agencies.
+* 💰 **High-end results without a huge team** — I deliver for £10–20k over a 3-month retainer, not £50–100k like big dev agencies.
 
 ---
 
@@ -207,6 +207,7 @@ See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdow
 Tech Founder & Secure Systems Architect | [Contact Me](https://www.linkedin.com/in/nana-e-a-johnson-282522a6/)
 
 ---
+
 
 
 
