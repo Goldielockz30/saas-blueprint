@@ -68,7 +68,7 @@ Helps traders capture market opportunities by automating buy and sell signals us
 
 **Tribute Me — (for AI Twin)**
 Empowers creators to engage fans and boost earnings through AI-driven roleplay and fully customized content.
-> “The AI roleplay features are next-level. My fans can’t get enough.” — Xanita
+> “The AI roleplay features are next-level. My fans can’t get enough.” — Xenia
 
 **GoldieLockz — (for Cyber Security)**
 Protects small businesses from costly breaches by continuously monitoring and securing their systems.
@@ -207,6 +207,7 @@ See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdow
 Tech Founder & Secure Systems Architect | [Contact Me](https://www.linkedin.com/in/nana-e-a-johnson-282522a6/)
 
 ---
+
 
 
 
