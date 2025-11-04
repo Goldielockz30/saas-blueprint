@@ -202,11 +202,12 @@ See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdow
 
 ---
 
-### 👤 Created by Nana E. A. Johnson
+### 👤 Created by Goldielockz
 
 Tech Founder & Secure Systems Architect | [Contact Me](https://www.instagram.com/goldielockz)
 
 ---
+
 
 
 
