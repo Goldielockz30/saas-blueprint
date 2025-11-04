@@ -204,9 +204,10 @@ See [folder-structure.md](./docs/folder-structure.md) for a full visual breakdow
 
 ### 👤 Created by Nana E. A. Johnson
 
-Tech Founder & Secure Systems Architect | [Contact Me](https://www.linkedin.com/in/nana-e-a-johnson-282522a6/)
+Tech Founder & Secure Systems Architect | [Contact Me](https://www.instagram.com/goldielockz)
 
 ---
+
 
 
 
