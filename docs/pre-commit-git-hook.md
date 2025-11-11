@@ -74,7 +74,7 @@ git commit -m "Untrack .env after test"
 
 ---
 
-### 👤 Created by Nana E. A. Johnson
+### 👤 Created by Goldielockz
 
 Tech Founder & Secure Systems Architect | [@Goldielockz](https://www.instagram.com/goldielockz)
 
