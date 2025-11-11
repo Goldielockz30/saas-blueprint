@@ -53,6 +53,6 @@ python scripts/check_env/check_env.py
 
 ---
 
-### 👤 Created by Nana E. A. Johnson
+### 👤 Created by Goldielockz
 
 Tech Founder & Secure Systems Architect | [@Goldielockz](https://www.instagram.com/goldielockz)
